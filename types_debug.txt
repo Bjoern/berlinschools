@@ -1,0 +1,26 @@
+--- Schulart Select found: DropDownListSchulart ---
+ID: 0 | Text: [alle]
+ID: 91 | Text: Ausländische Schule
+ID: 36 | Text: Berufliches Gymnasium
+ID: 33 | Text: Berufsfachschule
+ID: 37 | Text: Berufsoberschule
+ID: 32 | Text: Berufsschule
+ID: 30 | Text: Berufsschule mit sonderpäd. Aufgaben
+ID: 34 | Text: Fachoberschule
+ID: 35 | Text: Fachschule
+ID: 22 | Text: Förderschwerp. - Geistige Entwicklung
+ID: 21 | Text: Förderschwerp. - Lernen
+ID: 24 | Text: Förderschwerp. - Übrige
+ID: 16 | Text: Freie Waldorfschule
+ID: 42 | Text: Gemeinschaftsschule
+ID: 11 | Text: Grundschule
+ID: 14 | Text: Gymnasien
+ID: 85 | Text: Heilpraktikerschule
+ID: 41 | Text: Integrierte Sekundarschule
+ID: 83 | Text: Kosmetikschule
+ID: 86 | Text: Künstlerische Schule
+ID: 71 | Text: Schulpraktisches Seminar
+ID: 87 | Text: Sonstige Ergänzungsschule
+ID: 84 | Text: Sprachenschule
+ID: 82 | Text: Wirtschafts- u. Verwaltungsschule
+ID: 67 | Text: Zweiter Bildungsweg

@@ -1,0 +1,5093 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_db26a7b91e9faf3881b6d17bead8d177 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_db26a7b91e9faf3881b6d17bead8d177" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_db26a7b91e9faf3881b6d17bead8d177 = L.map(
+                "map_db26a7b91e9faf3881b6d17bead8d177",
+                {
+                    center: [52.52, 13.405],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4e18c0597385d539b0b8a5065718d650 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4e18c0597385d539b0b8a5065718d650.addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var marker_150d21f605e6bc7e3bfba0fc9af6497f = L.marker(
+                [52.4685918, 13.4835867],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_86e5333c40b732bca216cb774ebefa17 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_725600d2071825bb6591765acd185a8c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0a1a1825c9f30c3a5ebbfeecfba9dfde = $(`<div id="html_0a1a1825c9f30c3a5ebbfeecfba9dfde" style="width: 100.0%; height: 100.0%;"><b>12. Schule (Gymnasium)</b><br>Kiefholzstr. 274 12437 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29827' target='_blank'>Details</a></div>`)[0];
+                popup_725600d2071825bb6591765acd185a8c.setContent(html_0a1a1825c9f30c3a5ebbfeecfba9dfde);
+            
+        
+
+        marker_150d21f605e6bc7e3bfba0fc9af6497f.bindPopup(popup_725600d2071825bb6591765acd185a8c)
+        ;
+
+        
+    
+    
+            marker_150d21f605e6bc7e3bfba0fc9af6497f.bindTooltip(
+                `<div>
+                     12. Schule (Gymnasium)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_150d21f605e6bc7e3bfba0fc9af6497f.setIcon(icon_86e5333c40b732bca216cb774ebefa17);
+            
+    
+            var marker_0e90b5fc1e9a5899988ffd28280c1158 = L.marker(
+                [52.6304313, 13.2843117],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_634a939166032212b217fd45846ec1bb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c1b23cf2d022e8a99549791329c87b41 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c05368c97ea43ac3298a292a7f52f3e1 = $(`<div id="html_c05368c97ea43ac3298a292a7f52f3e1" style="width: 100.0%; height: 100.0%;"><b>12. Schule (Gymnasium)</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29837' target='_blank'>Details</a></div>`)[0];
+                popup_c1b23cf2d022e8a99549791329c87b41.setContent(html_c05368c97ea43ac3298a292a7f52f3e1);
+            
+        
+
+        marker_0e90b5fc1e9a5899988ffd28280c1158.bindPopup(popup_c1b23cf2d022e8a99549791329c87b41)
+        ;
+
+        
+    
+    
+            marker_0e90b5fc1e9a5899988ffd28280c1158.bindTooltip(
+                `<div>
+                     12. Schule (Gymnasium)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0e90b5fc1e9a5899988ffd28280c1158.setIcon(icon_634a939166032212b217fd45846ec1bb);
+            
+    
+            var marker_e9a973d74e3297efda2189f2bb3fec8f = L.marker(
+                [52.6304313, 13.2843117],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_e126e8a28292bea65afecc2c6434a512 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_facd33327547b8599bbee7ef36a22d61 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dcc98dc02e615983f378ff66ce3baad2 = $(`<div id="html_dcc98dc02e615983f378ff66ce3baad2" style="width: 100.0%; height: 100.0%;"><b>12. Schule (Gymnasium)</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29841' target='_blank'>Details</a></div>`)[0];
+                popup_facd33327547b8599bbee7ef36a22d61.setContent(html_dcc98dc02e615983f378ff66ce3baad2);
+            
+        
+
+        marker_e9a973d74e3297efda2189f2bb3fec8f.bindPopup(popup_facd33327547b8599bbee7ef36a22d61)
+        ;
+
+        
+    
+    
+            marker_e9a973d74e3297efda2189f2bb3fec8f.bindTooltip(
+                `<div>
+                     12. Schule (Gymnasium)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e9a973d74e3297efda2189f2bb3fec8f.setIcon(icon_e126e8a28292bea65afecc2c6434a512);
+            
+    
+            var marker_e5032cacf475e5853825b4851ff46f69 = L.marker(
+                [52.444731, 13.4427304],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_e1db00e95c2b34df0387c68662977a84 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0df715f9fb3df8e1c75ceba0d4d5407b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e40e42aa5e8f978d9819fa05253bed44 = $(`<div id="html_e40e42aa5e8f978d9819fa05253bed44" style="width: 100.0%; height: 100.0%;"><b>Albert-Einstein-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29024' target='_blank'>Details</a></div>`)[0];
+                popup_0df715f9fb3df8e1c75ceba0d4d5407b.setContent(html_e40e42aa5e8f978d9819fa05253bed44);
+            
+        
+
+        marker_e5032cacf475e5853825b4851ff46f69.bindPopup(popup_0df715f9fb3df8e1c75ceba0d4d5407b)
+        ;
+
+        
+    
+    
+            marker_e5032cacf475e5853825b4851ff46f69.bindTooltip(
+                `<div>
+                     Albert-Einstein-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e5032cacf475e5853825b4851ff46f69.setIcon(icon_e1db00e95c2b34df0387c68662977a84);
+            
+    
+            var marker_bc2d706f6af1a68fa08baa6e328d3842 = L.marker(
+                [52.4845808, 13.4263729],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_5c8a250b97adf16706bd75d37c3d5e18 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1e2a01c38110c15c15b4f64cf83787f1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_12ec660aa4d282385940c7ede912de81 = $(`<div id="html_12ec660aa4d282385940c7ede912de81" style="width: 100.0%; height: 100.0%;"><b>Albert-Schweitzer-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29574' target='_blank'>Details</a></div>`)[0];
+                popup_1e2a01c38110c15c15b4f64cf83787f1.setContent(html_12ec660aa4d282385940c7ede912de81);
+            
+        
+
+        marker_bc2d706f6af1a68fa08baa6e328d3842.bindPopup(popup_1e2a01c38110c15c15b4f64cf83787f1)
+        ;
+
+        
+    
+    
+            marker_bc2d706f6af1a68fa08baa6e328d3842.bindTooltip(
+                `<div>
+                     Albert-Schweitzer-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bc2d706f6af1a68fa08baa6e328d3842.setIcon(icon_5c8a250b97adf16706bd75d37c3d5e18);
+            
+    
+            var marker_813706af25a3597bf3a30c1aaf3f56a8 = L.marker(
+                [52.4693264, 13.4401789],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_71235a775a8efea7174c15da0802035f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5555c24702ba4e96be2161f6e879cf14 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_798e7c3152dbf5c93cf24f62ef8ce31f = $(`<div id="html_798e7c3152dbf5c93cf24f62ef8ce31f" style="width: 100.0%; height: 100.0%;"><b>Albrecht-Dürer-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29573' target='_blank'>Details</a></div>`)[0];
+                popup_5555c24702ba4e96be2161f6e879cf14.setContent(html_798e7c3152dbf5c93cf24f62ef8ce31f);
+            
+        
+
+        marker_813706af25a3597bf3a30c1aaf3f56a8.bindPopup(popup_5555c24702ba4e96be2161f6e879cf14)
+        ;
+
+        
+    
+    
+            marker_813706af25a3597bf3a30c1aaf3f56a8.bindTooltip(
+                `<div>
+                     Albrecht-Dürer-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_813706af25a3597bf3a30c1aaf3f56a8.setIcon(icon_71235a775a8efea7174c15da0802035f);
+            
+    
+            var marker_b6b415b397ac5655c89cd6542453b64e = L.marker(
+                [52.4455941, 13.5668943],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_78720fcdd221c8a03c11e90efb7fdf06 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9c23041650bdf358f2ea8132be514b2a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_33379f48f912467bc190c521caa28cb1 = $(`<div id="html_33379f48f912467bc190c521caa28cb1" style="width: 100.0%; height: 100.0%;"><b>Alexander-von-Humboldt-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29107' target='_blank'>Details</a></div>`)[0];
+                popup_9c23041650bdf358f2ea8132be514b2a.setContent(html_33379f48f912467bc190c521caa28cb1);
+            
+        
+
+        marker_b6b415b397ac5655c89cd6542453b64e.bindPopup(popup_9c23041650bdf358f2ea8132be514b2a)
+        ;
+
+        
+    
+    
+            marker_b6b415b397ac5655c89cd6542453b64e.bindTooltip(
+                `<div>
+                     Alexander-von-Humboldt-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b6b415b397ac5655c89cd6542453b64e.setIcon(icon_78720fcdd221c8a03c11e90efb7fdf06);
+            
+    
+            var marker_c91fa8d67072cb59d94efbca39e586dc = L.marker(
+                [52.514275, 13.4335791],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_7b8f24a6a8addd9f51ff9f9e7ac37d74 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ab83259e98b867817bbd86f942e0cc7c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_890b590bd94baf85a6f4c64ca9850ef7 = $(`<div id="html_890b590bd94baf85a6f4c64ca9850ef7" style="width: 100.0%; height: 100.0%;"><b>Andreas-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29039' target='_blank'>Details</a></div>`)[0];
+                popup_ab83259e98b867817bbd86f942e0cc7c.setContent(html_890b590bd94baf85a6f4c64ca9850ef7);
+            
+        
+
+        marker_c91fa8d67072cb59d94efbca39e586dc.bindPopup(popup_ab83259e98b867817bbd86f942e0cc7c)
+        ;
+
+        
+    
+    
+            marker_c91fa8d67072cb59d94efbca39e586dc.bindTooltip(
+                `<div>
+                     Andreas-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c91fa8d67072cb59d94efbca39e586dc.setIcon(icon_7b8f24a6a8addd9f51ff9f9e7ac37d74);
+            
+    
+            var marker_3939002b13e18a662c59d2ddf64d6ea4 = L.marker(
+                [52.4506997, 13.5228057],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_953a2aaee31986bdc92d1c4c225d71c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_51e543d65b02de0206dad7a5aead295a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8215bd24558b66b3529dce7eeffdeb0b = $(`<div id="html_8215bd24558b66b3529dce7eeffdeb0b" style="width: 100.0%; height: 100.0%;"><b>Archenhold-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28660' target='_blank'>Details</a></div>`)[0];
+                popup_51e543d65b02de0206dad7a5aead295a.setContent(html_8215bd24558b66b3529dce7eeffdeb0b);
+            
+        
+
+        marker_3939002b13e18a662c59d2ddf64d6ea4.bindPopup(popup_51e543d65b02de0206dad7a5aead295a)
+        ;
+
+        
+    
+    
+            marker_3939002b13e18a662c59d2ddf64d6ea4.bindTooltip(
+                `<div>
+                     Archenhold-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3939002b13e18a662c59d2ddf64d6ea4.setIcon(icon_953a2aaee31986bdc92d1c4c225d71c8);
+            
+    
+            var marker_6f306446c35cc42b483c82e43213b0bc = L.marker(
+                [52.4585711, 13.2796401],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_e739f180262dc6572691afaa64ca87df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a80d4d26c806fc529e8fc61907ab53c2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9b57292d7adc13ad80a1b2d0c3b34311 = $(`<div id="html_9b57292d7adc13ad80a1b2d0c3b34311" style="width: 100.0%; height: 100.0%;"><b>Arndt-Gymnasium Dahlem</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28475' target='_blank'>Details</a></div>`)[0];
+                popup_a80d4d26c806fc529e8fc61907ab53c2.setContent(html_9b57292d7adc13ad80a1b2d0c3b34311);
+            
+        
+
+        marker_6f306446c35cc42b483c82e43213b0bc.bindPopup(popup_a80d4d26c806fc529e8fc61907ab53c2)
+        ;
+
+        
+    
+    
+            marker_6f306446c35cc42b483c82e43213b0bc.bindTooltip(
+                `<div>
+                     Arndt-Gymnasium Dahlem
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6f306446c35cc42b483c82e43213b0bc.setIcon(icon_e739f180262dc6572691afaa64ca87df);
+            
+    
+            var marker_cd491a0ae1601fa68ceec64506e89f77 = L.marker(
+                [52.4603271, 13.3800272],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_024dda06111c4a415187130291ae354d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4eb86d72d10da9cc1387d77877a3b8cd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_036b18a3fbe570b4fed86a93b2dc2297 = $(`<div id="html_036b18a3fbe570b4fed86a93b2dc2297" style="width: 100.0%; height: 100.0%;"><b>Askanisches Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29368' target='_blank'>Details</a></div>`)[0];
+                popup_4eb86d72d10da9cc1387d77877a3b8cd.setContent(html_036b18a3fbe570b4fed86a93b2dc2297);
+            
+        
+
+        marker_cd491a0ae1601fa68ceec64506e89f77.bindPopup(popup_4eb86d72d10da9cc1387d77877a3b8cd)
+        ;
+
+        
+    
+    
+            marker_cd491a0ae1601fa68ceec64506e89f77.bindTooltip(
+                `<div>
+                     Askanisches Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cd491a0ae1601fa68ceec64506e89f77.setIcon(icon_024dda06111c4a415187130291ae354d);
+            
+    
+            var marker_0299174a722d2f2f6e5b3135f2a207df = L.marker(
+                [52.5699356, 13.5481584],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_a1dcad06f6ea376e4c226f91648f07d4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c24a00e61800d34808cecf508fca0968 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dec631eceff9f664c56470b761d2fdd5 = $(`<div id="html_dec631eceff9f664c56470b761d2fdd5" style="width: 100.0%; height: 100.0%;"><b>Barnim-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29291' target='_blank'>Details</a></div>`)[0];
+                popup_c24a00e61800d34808cecf508fca0968.setContent(html_dec631eceff9f664c56470b761d2fdd5);
+            
+        
+
+        marker_0299174a722d2f2f6e5b3135f2a207df.bindPopup(popup_c24a00e61800d34808cecf508fca0968)
+        ;
+
+        
+    
+    
+            marker_0299174a722d2f2f6e5b3135f2a207df.bindTooltip(
+                `<div>
+                     Barnim-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0299174a722d2f2f6e5b3135f2a207df.setIcon(icon_a1dcad06f6ea376e4c226f91648f07d4);
+            
+    
+            var marker_d690fbbcbd3a4d885d3adbe60828a9c6 = L.marker(
+                [52.4328411, 13.3427382],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_38037353f7c8fc476d18872a983e8598 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fe177ee2fde47696a0fb01ea77362165 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c5e5d2b93d73e49ba867a515efe490ec = $(`<div id="html_c5e5d2b93d73e49ba867a515efe490ec" style="width: 100.0%; height: 100.0%;"><b>Beethoven-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28720' target='_blank'>Details</a></div>`)[0];
+                popup_fe177ee2fde47696a0fb01ea77362165.setContent(html_c5e5d2b93d73e49ba867a515efe490ec);
+            
+        
+
+        marker_d690fbbcbd3a4d885d3adbe60828a9c6.bindPopup(popup_fe177ee2fde47696a0fb01ea77362165)
+        ;
+
+        
+    
+    
+            marker_d690fbbcbd3a4d885d3adbe60828a9c6.bindTooltip(
+                `<div>
+                     Beethoven-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d690fbbcbd3a4d885d3adbe60828a9c6.setIcon(icon_38037353f7c8fc476d18872a983e8598);
+            
+    
+            var marker_7bb6f61b0b0fc70b3b7b8cac9d5ae23b = L.marker(
+                [52.5277534, 13.4062933],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_e657a0eef91605e86730c2f15156641d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_561633370d28b7cb17294ad22b1d8f45 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_755d3efdb46c3ef0bac6b76cb5c28d51 = $(`<div id="html_755d3efdb46c3ef0bac6b76cb5c28d51" style="width: 100.0%; height: 100.0%;"><b>Berlin Cosmopolitan School</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28515' target='_blank'>Details</a></div>`)[0];
+                popup_561633370d28b7cb17294ad22b1d8f45.setContent(html_755d3efdb46c3ef0bac6b76cb5c28d51);
+            
+        
+
+        marker_7bb6f61b0b0fc70b3b7b8cac9d5ae23b.bindPopup(popup_561633370d28b7cb17294ad22b1d8f45)
+        ;
+
+        
+    
+    
+            marker_7bb6f61b0b0fc70b3b7b8cac9d5ae23b.bindTooltip(
+                `<div>
+                     Berlin Cosmopolitan School
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7bb6f61b0b0fc70b3b7b8cac9d5ae23b.setIcon(icon_e657a0eef91605e86730c2f15156641d);
+            
+    
+            var marker_534dd114fa60572aec2c895e78cb7f39 = L.marker(
+                [52.4518057, 13.5717411],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_4f543141dafa03a8f4f1ece4be46fe7c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fb0bae2cf8bcda3d83c51846a1160668 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_59fd31ef423c85cdc56982c7c948293d = $(`<div id="html_59fd31ef423c85cdc56982c7c948293d" style="width: 100.0%; height: 100.0%;"><b>BEST-Sabel-Oberschule</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28614' target='_blank'>Details</a></div>`)[0];
+                popup_fb0bae2cf8bcda3d83c51846a1160668.setContent(html_59fd31ef423c85cdc56982c7c948293d);
+            
+        
+
+        marker_534dd114fa60572aec2c895e78cb7f39.bindPopup(popup_fb0bae2cf8bcda3d83c51846a1160668)
+        ;
+
+        
+    
+    
+            marker_534dd114fa60572aec2c895e78cb7f39.bindTooltip(
+                `<div>
+                     BEST-Sabel-Oberschule
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_534dd114fa60572aec2c895e78cb7f39.setIcon(icon_4f543141dafa03a8f4f1ece4be46fe7c);
+            
+    
+            var marker_ca89a98958e1aeb7fe0a72aab4b08c71 = L.marker(
+                [52.5087091, 13.3542298],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_5423939c544024b2ceee5e7c8fbf91c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b35dea1cf885f7f024c5c3bbc8bf3577 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fdd5d08161ff7ec84eec3c84a4121fb6 = $(`<div id="html_fdd5d08161ff7ec84eec3c84a4121fb6" style="width: 100.0%; height: 100.0%;"><b>Canisius-Kolleg</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29152' target='_blank'>Details</a></div>`)[0];
+                popup_b35dea1cf885f7f024c5c3bbc8bf3577.setContent(html_fdd5d08161ff7ec84eec3c84a4121fb6);
+            
+        
+
+        marker_ca89a98958e1aeb7fe0a72aab4b08c71.bindPopup(popup_b35dea1cf885f7f024c5c3bbc8bf3577)
+        ;
+
+        
+    
+    
+            marker_ca89a98958e1aeb7fe0a72aab4b08c71.bindTooltip(
+                `<div>
+                     Canisius-Kolleg
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ca89a98958e1aeb7fe0a72aab4b08c71.setIcon(icon_5423939c544024b2ceee5e7c8fbf91c3);
+            
+    
+            var marker_ee6fbab59ea606a9222c7ea30eea9b46 = L.marker(
+                [52.5458615, 13.2705006],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_773edf02ae708fe8da8ce03504b28e6f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b0d0a04a5ce8ffc7aac45c31102aea95 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6db25508f59fd460f3f6fefface07ef9 = $(`<div id="html_6db25508f59fd460f3f6fefface07ef9" style="width: 100.0%; height: 100.0%;"><b>Carl-Friedrich-von-Siemens-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29584' target='_blank'>Details</a></div>`)[0];
+                popup_b0d0a04a5ce8ffc7aac45c31102aea95.setContent(html_6db25508f59fd460f3f6fefface07ef9);
+            
+        
+
+        marker_ee6fbab59ea606a9222c7ea30eea9b46.bindPopup(popup_b0d0a04a5ce8ffc7aac45c31102aea95)
+        ;
+
+        
+    
+    
+            marker_ee6fbab59ea606a9222c7ea30eea9b46.bindTooltip(
+                `<div>
+                     Carl-Friedrich-von-Siemens-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ee6fbab59ea606a9222c7ea30eea9b46.setIcon(icon_773edf02ae708fe8da8ce03504b28e6f);
+            
+    
+            var marker_75244a148908cf79c15534a81e0e38d1 = L.marker(
+                [52.5668817, 13.4003284],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_05ef752b4c1ed05492a6d894a57193a4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d0f258f276b85e7b31a73430a0e688c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c1f6ac6cc529491d58b9d2d71bd8c71a = $(`<div id="html_c1f6ac6cc529491d58b9d2d71bd8c71a" style="width: 100.0%; height: 100.0%;"><b>Carl-von-Ossietzky-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29149' target='_blank'>Details</a></div>`)[0];
+                popup_6d0f258f276b85e7b31a73430a0e688c.setContent(html_c1f6ac6cc529491d58b9d2d71bd8c71a);
+            
+        
+
+        marker_75244a148908cf79c15534a81e0e38d1.bindPopup(popup_6d0f258f276b85e7b31a73430a0e688c)
+        ;
+
+        
+    
+    
+            marker_75244a148908cf79c15534a81e0e38d1.bindTooltip(
+                `<div>
+                     Carl-von-Ossietzky-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_75244a148908cf79c15534a81e0e38d1.setIcon(icon_05ef752b4c1ed05492a6d894a57193a4);
+            
+    
+            var marker_5cf3139aa979bb9a8ca22ca95e0dd229 = L.marker(
+                [52.508773, 13.4472246],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_ebddc824588a393ded9788fc67065c58 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_df34ba11d564b3a3973fafffc5a00989 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0f62afdee04c9d777ff9df63177ea5ca = $(`<div id="html_0f62afdee04c9d777ff9df63177ea5ca" style="width: 100.0%; height: 100.0%;"><b>Dathe-Gymnasium</b><br>Helsingforser Str. 1113 10243 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28768' target='_blank'>Details</a></div>`)[0];
+                popup_df34ba11d564b3a3973fafffc5a00989.setContent(html_0f62afdee04c9d777ff9df63177ea5ca);
+            
+        
+
+        marker_5cf3139aa979bb9a8ca22ca95e0dd229.bindPopup(popup_df34ba11d564b3a3973fafffc5a00989)
+        ;
+
+        
+    
+    
+            marker_5cf3139aa979bb9a8ca22ca95e0dd229.bindTooltip(
+                `<div>
+                     Dathe-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5cf3139aa979bb9a8ca22ca95e0dd229.setIcon(icon_ebddc824588a393ded9788fc67065c58);
+            
+    
+            var marker_023d1a128aec24d48ada70c8faeabee0 = L.marker(
+                [52.5485927, 13.3826781],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_9ff7a62fd5e92929d6d0900990368acf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_903b99b60c2b2308319a53e5851a6806 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_823e0d47e9efc9fcd19b9300393e29f9 = $(`<div id="html_823e0d47e9efc9fcd19b9300393e29f9" style="width: 100.0%; height: 100.0%;"><b>Diesterweg-Gymnasium</b><br>Böttgerstr. 26 13357 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29077' target='_blank'>Details</a></div>`)[0];
+                popup_903b99b60c2b2308319a53e5851a6806.setContent(html_823e0d47e9efc9fcd19b9300393e29f9);
+            
+        
+
+        marker_023d1a128aec24d48ada70c8faeabee0.bindPopup(popup_903b99b60c2b2308319a53e5851a6806)
+        ;
+
+        
+    
+    
+            marker_023d1a128aec24d48ada70c8faeabee0.bindTooltip(
+                `<div>
+                     Diesterweg-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_023d1a128aec24d48ada70c8faeabee0.setIcon(icon_9ff7a62fd5e92929d6d0900990368acf);
+            
+    
+            var marker_805be39ca7430a3400406bff694d4fb8 = L.marker(
+                [52.420257, 13.1878739],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_6708cf8c1b30261c9796e5ea21a52449 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dc2e0b906b172acdaf25cf61b0817a0b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_79cfc76f8be7c7a983461312f9a52d6a = $(`<div id="html_79cfc76f8be7c7a983461312f9a52d6a" style="width: 100.0%; height: 100.0%;"><b>Dreilinden-Gymnasium</b><br>Dreilindenstr. 49 14109 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28492' target='_blank'>Details</a></div>`)[0];
+                popup_dc2e0b906b172acdaf25cf61b0817a0b.setContent(html_79cfc76f8be7c7a983461312f9a52d6a);
+            
+        
+
+        marker_805be39ca7430a3400406bff694d4fb8.bindPopup(popup_dc2e0b906b172acdaf25cf61b0817a0b)
+        ;
+
+        
+    
+    
+            marker_805be39ca7430a3400406bff694d4fb8.bindTooltip(
+                `<div>
+                     Dreilinden-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_805be39ca7430a3400406bff694d4fb8.setIcon(icon_6708cf8c1b30261c9796e5ea21a52449);
+            
+    
+            var marker_ceae5aa257774a249d073b79347d810b = L.marker(
+                [52.4283012, 13.2575549],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_ed8ddb6d4d0c822db847d204e98530c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_92f7625e8e16ea5cd69036e63abdc3a2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ecc5b99b6b707b23e0246a9f9fdc5482 = $(`<div id="html_ecc5b99b6b707b23e0246a9f9fdc5482" style="width: 100.0%; height: 100.0%;"><b>Droste-Hülshoff-Gymnasium</b><br>Schönower Str. 8 14165 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28474' target='_blank'>Details</a></div>`)[0];
+                popup_92f7625e8e16ea5cd69036e63abdc3a2.setContent(html_ecc5b99b6b707b23e0246a9f9fdc5482);
+            
+        
+
+        marker_ceae5aa257774a249d073b79347d810b.bindPopup(popup_92f7625e8e16ea5cd69036e63abdc3a2)
+        ;
+
+        
+    
+    
+            marker_ceae5aa257774a249d073b79347d810b.bindTooltip(
+                `<div>
+                     Droste-Hülshoff-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ceae5aa257774a249d073b79347d810b.setIcon(icon_ed8ddb6d4d0c822db847d204e98530c1);
+            
+    
+            var marker_8655eca9e5f55665650d59a8cef7a263 = L.marker(
+                [52.4452836, 13.3808258],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_c42de02c723af087bd71e2008ff9f022 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_978aa83dda94d186519cf621b3dfcd71 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6e71782e0b761634aecf82d51e7ef262 = $(`<div id="html_6e71782e0b761634aecf82d51e7ef262" style="width: 100.0%; height: 100.0%;"><b>Eckener-Gymnasium</b><br>Kaiserstr. 1721 12105 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29369' target='_blank'>Details</a></div>`)[0];
+                popup_978aa83dda94d186519cf621b3dfcd71.setContent(html_6e71782e0b761634aecf82d51e7ef262);
+            
+        
+
+        marker_8655eca9e5f55665650d59a8cef7a263.bindPopup(popup_978aa83dda94d186519cf621b3dfcd71)
+        ;
+
+        
+    
+    
+            marker_8655eca9e5f55665650d59a8cef7a263.bindTooltip(
+                `<div>
+                     Eckener-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8655eca9e5f55665650d59a8cef7a263.setIcon(icon_c42de02c723af087bd71e2008ff9f022);
+            
+    
+            var marker_c40d362c05278b5b0f6c785516220275 = L.marker(
+                [52.443285, 13.5886222],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_737fdefe8411511723188f3aaa8bfc6e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_29e3686550f7eb073f7c6f3b84baeb4e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8e0ec09e343d4796686f7aa3dd0909fc = $(`<div id="html_8e0ec09e343d4796686f7aa3dd0909fc" style="width: 100.0%; height: 100.0%;"><b>Emmy-Noether-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29313' target='_blank'>Details</a></div>`)[0];
+                popup_29e3686550f7eb073f7c6f3b84baeb4e.setContent(html_8e0ec09e343d4796686f7aa3dd0909fc);
+            
+        
+
+        marker_c40d362c05278b5b0f6c785516220275.bindPopup(popup_29e3686550f7eb073f7c6f3b84baeb4e)
+        ;
+
+        
+    
+    
+            marker_c40d362c05278b5b0f6c785516220275.bindTooltip(
+                `<div>
+                     Emmy-Noether-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c40d362c05278b5b0f6c785516220275.setIcon(icon_737fdefe8411511723188f3aaa8bfc6e);
+            
+    
+            var marker_0610ea5e7872eff4facce6879d4b2e57 = L.marker(
+                [52.4838197, 13.4377196],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_a2df3c422e064354aba717a546be6d77 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2499d75508def42964bdd924702bf4b3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c16ae8f6d1bb03edcaa1b72e208f8b07 = $(`<div id="html_c16ae8f6d1bb03edcaa1b72e208f8b07" style="width: 100.0%; height: 100.0%;"><b>Ernst-Abbe-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29558' target='_blank'>Details</a></div>`)[0];
+                popup_2499d75508def42964bdd924702bf4b3.setContent(html_c16ae8f6d1bb03edcaa1b72e208f8b07);
+            
+        
+
+        marker_0610ea5e7872eff4facce6879d4b2e57.bindPopup(popup_2499d75508def42964bdd924702bf4b3)
+        ;
+
+        
+    
+    
+            marker_0610ea5e7872eff4facce6879d4b2e57.bindTooltip(
+                `<div>
+                     Ernst-Abbe-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0610ea5e7872eff4facce6879d4b2e57.setIcon(icon_a2df3c422e064354aba717a546be6d77);
+            
+    
+            var marker_2825ed27e432adc82754ce102dec9779 = L.marker(
+                [52.5715785, 13.3685402],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_4efa4c5723fe7324504107902f13bcbd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a02e2007f6e27b63a74863c398044a36 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e0910483916b417a4f65f8118e29b0ab = $(`<div id="html_e0910483916b417a4f65f8118e29b0ab" style="width: 100.0%; height: 100.0%;"><b>Europäisches Gymnasium Bertha-von-Suttner</b><br>Reginhardstr. 172 13409 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29305' target='_blank'>Details</a></div>`)[0];
+                popup_a02e2007f6e27b63a74863c398044a36.setContent(html_e0910483916b417a4f65f8118e29b0ab);
+            
+        
+
+        marker_2825ed27e432adc82754ce102dec9779.bindPopup(popup_a02e2007f6e27b63a74863c398044a36)
+        ;
+
+        
+    
+    
+            marker_2825ed27e432adc82754ce102dec9779.bindTooltip(
+                `<div>
+                     Europäisches Gymnasium Bertha-von-Suttner
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2825ed27e432adc82754ce102dec9779.setIcon(icon_4efa4c5723fe7324504107902f13bcbd);
+            
+    
+            var marker_018c0417375e9f1052ad41b19a6fe4da = L.marker(
+                [52.6311358, 13.2829527],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_a2224a845e4bd16faedcc5f01141da30 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_25bec13fc751adcf265b4a2a7d260655 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f9752a630019b79da3c9a2b103a0d3b6 = $(`<div id="html_f9752a630019b79da3c9a2b103a0d3b6" style="width: 100.0%; height: 100.0%;"><b>Evangelische Schule Frohnau</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29389' target='_blank'>Details</a></div>`)[0];
+                popup_25bec13fc751adcf265b4a2a7d260655.setContent(html_f9752a630019b79da3c9a2b103a0d3b6);
+            
+        
+
+        marker_018c0417375e9f1052ad41b19a6fe4da.bindPopup(popup_25bec13fc751adcf265b4a2a7d260655)
+        ;
+
+        
+    
+    
+            marker_018c0417375e9f1052ad41b19a6fe4da.bindTooltip(
+                `<div>
+                     Evangelische Schule Frohnau
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_018c0417375e9f1052ad41b19a6fe4da.setIcon(icon_a2224a845e4bd16faedcc5f01141da30);
+            
+    
+            var marker_f6ab15b0b9de5e11b6ba213404b8cef8 = L.marker(
+                [52.4854937, 13.2930576],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_d3c6a637d8df581c000679b7404b4236 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bdf110ea17aca6f45f46e746e63baed9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ef015a79a720f05a172c257903134d9a = $(`<div id="html_ef015a79a720f05a172c257903134d9a" style="width: 100.0%; height: 100.0%;"><b>Evangelisches Gymnasium zum Grauen Kloster</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28464' target='_blank'>Details</a></div>`)[0];
+                popup_bdf110ea17aca6f45f46e746e63baed9.setContent(html_ef015a79a720f05a172c257903134d9a);
+            
+        
+
+        marker_f6ab15b0b9de5e11b6ba213404b8cef8.bindPopup(popup_bdf110ea17aca6f45f46e746e63baed9)
+        ;
+
+        
+    
+    
+            marker_f6ab15b0b9de5e11b6ba213404b8cef8.bindTooltip(
+                `<div>
+                     Evangelisches Gymnasium zum Grauen Kloster
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f6ab15b0b9de5e11b6ba213404b8cef8.setIcon(icon_d3c6a637d8df581c000679b7404b4236);
+            
+    
+            var marker_a112cad3e8d1c42f3624a3150451c8c6 = L.marker(
+                [52.5366663, 13.4385538],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_3ba94f0ac018c392e9064ad6361fa334 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c69b2b03973d23faa0b0ab9669cf5e81 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a3b5ba2d9c1bc36172ce602d8ee8355a = $(`<div id="html_a3b5ba2d9c1bc36172ce602d8ee8355a" style="width: 100.0%; height: 100.0%;"><b>Felix-Mendelssohn-Bartholdy-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29041' target='_blank'>Details</a></div>`)[0];
+                popup_c69b2b03973d23faa0b0ab9669cf5e81.setContent(html_a3b5ba2d9c1bc36172ce602d8ee8355a);
+            
+        
+
+        marker_a112cad3e8d1c42f3624a3150451c8c6.bindPopup(popup_c69b2b03973d23faa0b0ab9669cf5e81)
+        ;
+
+        
+    
+    
+            marker_a112cad3e8d1c42f3624a3150451c8c6.bindTooltip(
+                `<div>
+                     Felix-Mendelssohn-Bartholdy-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a112cad3e8d1c42f3624a3150451c8c6.setIcon(icon_3ba94f0ac018c392e9064ad6361fa334);
+            
+    
+            var marker_3b3db0dcc62399094986075e94441475 = L.marker(
+                [52.4542193, 13.3127449],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_61e8889295b9d79c62bcb2f6dbf6a12d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a52e60da37e930090cbe6c7eb5c27e74 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d01a1985be8a4179303ff19199b532cc = $(`<div id="html_d01a1985be8a4179303ff19199b532cc" style="width: 100.0%; height: 100.0%;"><b>Fichtenberg-Oberschule</b><br>Rothenburgstr. 18 12165 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29459' target='_blank'>Details</a></div>`)[0];
+                popup_a52e60da37e930090cbe6c7eb5c27e74.setContent(html_d01a1985be8a4179303ff19199b532cc);
+            
+        
+
+        marker_3b3db0dcc62399094986075e94441475.bindPopup(popup_a52e60da37e930090cbe6c7eb5c27e74)
+        ;
+
+        
+    
+    
+            marker_3b3db0dcc62399094986075e94441475.bindTooltip(
+                `<div>
+                     Fichtenberg-Oberschule
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3b3db0dcc62399094986075e94441475.setIcon(icon_61e8889295b9d79c62bcb2f6dbf6a12d);
+            
+    
+            var marker_467aa539e972b8ee9af82927fcb2f563 = L.marker(
+                [52.5030221, 13.3550381],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_ba85f0360b1d780a47729226fd38e31e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0cd4c42cf9bddfb3049ffb07645a5571 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_08c450882c919e2249f8680ef9f23fd9 = $(`<div id="html_08c450882c919e2249f8680ef9f23fd9" style="width: 100.0%; height: 100.0%;"><b>Französisches Gymnasium</b><br>Derfflingerstr. 7 10785 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28901' target='_blank'>Details</a></div>`)[0];
+                popup_0cd4c42cf9bddfb3049ffb07645a5571.setContent(html_08c450882c919e2249f8680ef9f23fd9);
+            
+        
+
+        marker_467aa539e972b8ee9af82927fcb2f563.bindPopup(popup_0cd4c42cf9bddfb3049ffb07645a5571)
+        ;
+
+        
+    
+    
+            marker_467aa539e972b8ee9af82927fcb2f563.bindTooltip(
+                `<div>
+                     Französisches Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_467aa539e972b8ee9af82927fcb2f563.setIcon(icon_ba85f0360b1d780a47729226fd38e31e);
+            
+    
+            var marker_6011836ae3f5bbcf03be847fce64027f = L.marker(
+                [52.4374162, 13.2629021],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_83a4a15c3a1e9d65f5286644457cfcdb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ad93ed44a5089817b795184113e17994 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_575688621bead8e7a0110c92a0b8a0f5 = $(`<div id="html_575688621bead8e7a0110c92a0b8a0f5" style="width: 100.0%; height: 100.0%;"><b>Freie Schule Anne-Sophie Berlin</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29611' target='_blank'>Details</a></div>`)[0];
+                popup_ad93ed44a5089817b795184113e17994.setContent(html_575688621bead8e7a0110c92a0b8a0f5);
+            
+        
+
+        marker_6011836ae3f5bbcf03be847fce64027f.bindPopup(popup_ad93ed44a5089817b795184113e17994)
+        ;
+
+        
+    
+    
+            marker_6011836ae3f5bbcf03be847fce64027f.bindTooltip(
+                `<div>
+                     Freie Schule Anne-Sophie Berlin
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6011836ae3f5bbcf03be847fce64027f.setIcon(icon_83a4a15c3a1e9d65f5286644457cfcdb);
+            
+    
+            var marker_29879c4be5e1143152becb3ebcf832e2 = L.marker(
+                [52.5410202, 13.2002865],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_70f062db75b76248f26704c1ed24acf9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6547d01aa36b4cf475dd52375f00f79f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1f4fbeb99fccd8790796ed4693e5001c = $(`<div id="html_1f4fbeb99fccd8790796ed4693e5001c" style="width: 100.0%; height: 100.0%;"><b>Freiherr-vom-Stein-Gymnasium</b><br>Galenstr. 4044 13597 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29582' target='_blank'>Details</a></div>`)[0];
+                popup_6547d01aa36b4cf475dd52375f00f79f.setContent(html_1f4fbeb99fccd8790796ed4693e5001c);
+            
+        
+
+        marker_29879c4be5e1143152becb3ebcf832e2.bindPopup(popup_6547d01aa36b4cf475dd52375f00f79f)
+        ;
+
+        
+    
+    
+            marker_29879c4be5e1143152becb3ebcf832e2.bindTooltip(
+                `<div>
+                     Freiherr-vom-Stein-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_29879c4be5e1143152becb3ebcf832e2.setIcon(icon_70f062db75b76248f26704c1ed24acf9);
+            
+    
+            var marker_6f456d8e2021b4818f40b050eab62edf = L.marker(
+                [52.4847128, 13.3184101],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_9e36808b4974283993e24cf65a98ec28 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8ecb7a26bd47fb74bef9ac3952e3d14a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7de87adf4ca1f061f3fba1fedf05fd19 = $(`<div id="html_7de87adf4ca1f061f3fba1fedf05fd19" style="width: 100.0%; height: 100.0%;"><b>Friedrich-Ebert-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29601' target='_blank'>Details</a></div>`)[0];
+                popup_8ecb7a26bd47fb74bef9ac3952e3d14a.setContent(html_7de87adf4ca1f061f3fba1fedf05fd19);
+            
+        
+
+        marker_6f456d8e2021b4818f40b050eab62edf.bindPopup(popup_8ecb7a26bd47fb74bef9ac3952e3d14a)
+        ;
+
+        
+    
+    
+            marker_6f456d8e2021b4818f40b050eab62edf.bindTooltip(
+                `<div>
+                     Friedrich-Ebert-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6f456d8e2021b4818f40b050eab62edf.setIcon(icon_9e36808b4974283993e24cf65a98ec28);
+            
+    
+            var marker_584b7531d86bfca61298e33564dcd7b3 = L.marker(
+                [52.5697173, 13.35694],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_15e93a0468b245ce5844bb1ae780a014 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_54dadc38eecc1ce7ce718b6e298eba89 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bfa82ed1e02f763da9e182c20e53af16 = $(`<div id="html_bfa82ed1e02f763da9e182c20e53af16" style="width: 100.0%; height: 100.0%;"><b>Friedrich-Engels-Gymnasium</b><br>Emmentaler Str. 67 13407 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29304' target='_blank'>Details</a></div>`)[0];
+                popup_54dadc38eecc1ce7ce718b6e298eba89.setContent(html_bfa82ed1e02f763da9e182c20e53af16);
+            
+        
+
+        marker_584b7531d86bfca61298e33564dcd7b3.bindPopup(popup_54dadc38eecc1ce7ce718b6e298eba89)
+        ;
+
+        
+    
+    
+            marker_584b7531d86bfca61298e33564dcd7b3.bindTooltip(
+                `<div>
+                     Friedrich-Engels-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_584b7531d86bfca61298e33564dcd7b3.setIcon(icon_15e93a0468b245ce5844bb1ae780a014);
+            
+    
+            var marker_7cc775c260523f72062184828c9a2453 = L.marker(
+                [52.5926931, 13.2962626],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_a42819daacb65a04789cdedefc330b79 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9016b52e8770081a094f38236ab4e65b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_db00c0e83a68ac09bfa8b44e06005ec9 = $(`<div id="html_db00c0e83a68ac09bfa8b44e06005ec9" style="width: 100.0%; height: 100.0%;"><b>Gabriele-von-Bülow-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29307' target='_blank'>Details</a></div>`)[0];
+                popup_9016b52e8770081a094f38236ab4e65b.setContent(html_db00c0e83a68ac09bfa8b44e06005ec9);
+            
+        
+
+        marker_7cc775c260523f72062184828c9a2453.bindPopup(popup_9016b52e8770081a094f38236ab4e65b)
+        ;
+
+        
+    
+    
+            marker_7cc775c260523f72062184828c9a2453.bindTooltip(
+                `<div>
+                     Gabriele-von-Bülow-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7cc775c260523f72062184828c9a2453.setIcon(icon_a42819daacb65a04789cdedefc330b79);
+            
+    
+            var marker_590d7b4998284bcb339ea9866504fcf4 = L.marker(
+                [52.4479888, 13.5039844],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_e95da40697ed621824d5b777c6560a2f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ac997edc960c0fe3a880755ecdcbb802 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c46215725f5ba790a36de8ccdda4e9ae = $(`<div id="html_c46215725f5ba790a36de8ccdda4e9ae" style="width: 100.0%; height: 100.0%;"><b>Gebrüder-Montgolfier-Gymnasium</b><br>Ellernweg 2022 12487 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28658' target='_blank'>Details</a></div>`)[0];
+                popup_ac997edc960c0fe3a880755ecdcbb802.setContent(html_c46215725f5ba790a36de8ccdda4e9ae);
+            
+        
+
+        marker_590d7b4998284bcb339ea9866504fcf4.bindPopup(popup_ac997edc960c0fe3a880755ecdcbb802)
+        ;
+
+        
+    
+    
+            marker_590d7b4998284bcb339ea9866504fcf4.bindTooltip(
+                `<div>
+                     Gebrüder-Montgolfier-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_590d7b4998284bcb339ea9866504fcf4.setIcon(icon_e95da40697ed621824d5b777c6560a2f);
+            
+    
+            var marker_d0926e53c8196eab03ff40ed8f0557a4 = L.marker(
+                [52.3918117, 13.4054463],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_4b52fbdc5f1e6b90ef5121529accaf22 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9124fe44c752e13ebb8dc62dda60cfb2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c4d921f7cf236854e2c81cdde15a3340 = $(`<div id="html_c4d921f7cf236854e2c81cdde15a3340" style="width: 100.0%; height: 100.0%;"><b>Georg-Büchner-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29370' target='_blank'>Details</a></div>`)[0];
+                popup_9124fe44c752e13ebb8dc62dda60cfb2.setContent(html_c4d921f7cf236854e2c81cdde15a3340);
+            
+        
+
+        marker_d0926e53c8196eab03ff40ed8f0557a4.bindPopup(popup_9124fe44c752e13ebb8dc62dda60cfb2)
+        ;
+
+        
+    
+    
+            marker_d0926e53c8196eab03ff40ed8f0557a4.bindTooltip(
+                `<div>
+                     Georg-Büchner-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d0926e53c8196eab03ff40ed8f0557a4.setIcon(icon_4b52fbdc5f1e6b90ef5121529accaf22);
+            
+    
+            var marker_d50c32389a60200f21b6571321db9e98 = L.marker(
+                [52.5144222, 13.4560533],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_60cee314c8bb225688be8c0f28f6965d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d7517a07dc97ba9e7b6626ea01778bef = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f79ef2ffb96a1d379e759f5fd96b9ebe = $(`<div id="html_f79ef2ffb96a1d379e759f5fd96b9ebe" style="width: 100.0%; height: 100.0%;"><b>Georg-Friedrich-Händel-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28767' target='_blank'>Details</a></div>`)[0];
+                popup_d7517a07dc97ba9e7b6626ea01778bef.setContent(html_f79ef2ffb96a1d379e759f5fd96b9ebe);
+            
+        
+
+        marker_d50c32389a60200f21b6571321db9e98.bindPopup(popup_d7517a07dc97ba9e7b6626ea01778bef)
+        ;
+
+        
+    
+    
+            marker_d50c32389a60200f21b6571321db9e98.bindTooltip(
+                `<div>
+                     Georg-Friedrich-Händel-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d50c32389a60200f21b6571321db9e98.setIcon(icon_60cee314c8bb225688be8c0f28f6965d);
+            
+    
+            var marker_715aa566b8b7501eb0868948f24e1467 = L.marker(
+                [52.6166604, 13.3023159],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_5534b1eeaa3e0cefab984359c7496f4b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dfc45493587f0c6fd1c0ff5375bbc49e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_21fc7fff98b60b9f90d6f1413c360b89 = $(`<div id="html_21fc7fff98b60b9f90d6f1413c360b89" style="width: 100.0%; height: 100.0%;"><b>Georg-Herwegh-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29308' target='_blank'>Details</a></div>`)[0];
+                popup_dfc45493587f0c6fd1c0ff5375bbc49e.setContent(html_21fc7fff98b60b9f90d6f1413c360b89);
+            
+        
+
+        marker_715aa566b8b7501eb0868948f24e1467.bindPopup(popup_dfc45493587f0c6fd1c0ff5375bbc49e)
+        ;
+
+        
+    
+    
+            marker_715aa566b8b7501eb0868948f24e1467.bindTooltip(
+                `<div>
+                     Georg-Herwegh-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_715aa566b8b7501eb0868948f24e1467.setIcon(icon_5534b1eeaa3e0cefab984359c7496f4b);
+            
+    
+            var marker_b8c74a51a21711b2fec83dd009e3218c = L.marker(
+                [52.4518193, 13.6335468],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_f59f7866760bab9ba40882c0b32bfdf0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_02753b18f717fa2d75388e632755f82a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e708ce98feb9925413f07e6ab8f53fcd = $(`<div id="html_e708ce98feb9925413f07e6ab8f53fcd" style="width: 100.0%; height: 100.0%;"><b>Gerhart-Hauptmann-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29108' target='_blank'>Details</a></div>`)[0];
+                popup_02753b18f717fa2d75388e632755f82a.setContent(html_e708ce98feb9925413f07e6ab8f53fcd);
+            
+        
+
+        marker_b8c74a51a21711b2fec83dd009e3218c.bindPopup(popup_02753b18f717fa2d75388e632755f82a)
+        ;
+
+        
+    
+    
+            marker_b8c74a51a21711b2fec83dd009e3218c.bindTooltip(
+                `<div>
+                     Gerhart-Hauptmann-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b8c74a51a21711b2fec83dd009e3218c.setIcon(icon_f59f7866760bab9ba40882c0b32bfdf0);
+            
+    
+            var marker_d1ba4c0c5868365a77e3a10e290d64ac = L.marker(
+                [52.4873448, 13.321653],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_e6639450581ca6516d4ac59978a33a45 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_916d020806aa7fbe3098e3bcf21955dc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b9047aa8c80f5eb63f9865e32d266c18 = $(`<div id="html_b9047aa8c80f5eb63f9865e32d266c18" style="width: 100.0%; height: 100.0%;"><b>Goethe-Gymnasium</b><br>Gasteiner Str. 23 10717 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28678' target='_blank'>Details</a></div>`)[0];
+                popup_916d020806aa7fbe3098e3bcf21955dc.setContent(html_b9047aa8c80f5eb63f9865e32d266c18);
+            
+        
+
+        marker_d1ba4c0c5868365a77e3a10e290d64ac.bindPopup(popup_916d020806aa7fbe3098e3bcf21955dc)
+        ;
+
+        
+    
+    
+            marker_d1ba4c0c5868365a77e3a10e290d64ac.bindTooltip(
+                `<div>
+                     Goethe-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d1ba4c0c5868365a77e3a10e290d64ac.setIcon(icon_e6639450581ca6516d4ac59978a33a45);
+            
+    
+            var marker_94e6ea6298b131aa5a08ab1e312c2170 = L.marker(
+                [52.4344507, 13.3045506],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_4e1ee7c2ec305146d3ac9e2d80406878 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bd730f76fa51665aeaf24ff70c8de4b7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_26a604540ad3ac695fe43c54962fa9e2 = $(`<div id="html_26a604540ad3ac695fe43c54962fa9e2" style="width: 100.0%; height: 100.0%;"><b>Goethe-Gymnasium Lichterfelde</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29461' target='_blank'>Details</a></div>`)[0];
+                popup_bd730f76fa51665aeaf24ff70c8de4b7.setContent(html_26a604540ad3ac695fe43c54962fa9e2);
+            
+        
+
+        marker_94e6ea6298b131aa5a08ab1e312c2170.bindPopup(popup_bd730f76fa51665aeaf24ff70c8de4b7)
+        ;
+
+        
+    
+    
+            marker_94e6ea6298b131aa5a08ab1e312c2170.bindTooltip(
+                `<div>
+                     Goethe-Gymnasium Lichterfelde
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_94e6ea6298b131aa5a08ab1e312c2170.setIcon(icon_4e1ee7c2ec305146d3ac9e2d80406878);
+            
+    
+            var marker_81585591ba8031d5144ff1446f5beb88 = L.marker(
+                [52.5284535, 13.3018036],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_86ebe3a29ed4eba3cb81be5846ab0e2f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7537c8782a4d6fa5123434b450e884fb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_62e808081de3f38ca36cfe794b00bbac = $(`<div id="html_62e808081de3f38ca36cfe794b00bbac" style="width: 100.0%; height: 100.0%;"><b>Gottfried-Keller-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29069' target='_blank'>Details</a></div>`)[0];
+                popup_7537c8782a4d6fa5123434b450e884fb.setContent(html_62e808081de3f38ca36cfe794b00bbac);
+            
+        
+
+        marker_81585591ba8031d5144ff1446f5beb88.bindPopup(popup_7537c8782a4d6fa5123434b450e884fb)
+        ;
+
+        
+    
+    
+            marker_81585591ba8031d5144ff1446f5beb88.bindTooltip(
+                `<div>
+                     Gottfried-Keller-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_81585591ba8031d5144ff1446f5beb88.setIcon(icon_86ebe3a29ed4eba3cb81be5846ab0e2f);
+            
+    
+            var marker_92f9b974a4a320d054a9f80726401f4e = L.marker(
+                [52.4570288, 13.3259248],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_5837cd894efd3400a85392614179b1c4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c613f5fe061dd34e0ab354b0feb1b7e2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b4bd1877ba892c3f701c4395a2afce09 = $(`<div id="html_b4bd1877ba892c3f701c4395a2afce09" style="width: 100.0%; height: 100.0%;"><b>Gymnasium Steglitz</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28557' target='_blank'>Details</a></div>`)[0];
+                popup_c613f5fe061dd34e0ab354b0feb1b7e2.setContent(html_b4bd1877ba892c3f701c4395a2afce09);
+            
+        
+
+        marker_92f9b974a4a320d054a9f80726401f4e.bindPopup(popup_c613f5fe061dd34e0ab354b0feb1b7e2)
+        ;
+
+        
+    
+    
+            marker_92f9b974a4a320d054a9f80726401f4e.bindTooltip(
+                `<div>
+                     Gymnasium Steglitz
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_92f9b974a4a320d054a9f80726401f4e.setIcon(icon_5837cd894efd3400a85392614179b1c4);
+            
+    
+            var marker_57b149d3f2be4c311782f525309febdb = L.marker(
+                [52.5191616, 13.3397835],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_ef368a5600adc2247ec62754582ec660 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3c6305fabc0a537a67a15b2d7f3676f5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3fd77fe9b28487ad2c621681cb9a6ada = $(`<div id="html_3fd77fe9b28487ad2c621681cb9a6ada" style="width: 100.0%; height: 100.0%;"><b>Gymnasium Tiergarten</b><br>Altonaer Str. 26 10555 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29626' target='_blank'>Details</a></div>`)[0];
+                popup_3c6305fabc0a537a67a15b2d7f3676f5.setContent(html_3fd77fe9b28487ad2c621681cb9a6ada);
+            
+        
+
+        marker_57b149d3f2be4c311782f525309febdb.bindPopup(popup_3c6305fabc0a537a67a15b2d7f3676f5)
+        ;
+
+        
+    
+    
+            marker_57b149d3f2be4c311782f525309febdb.bindTooltip(
+                `<div>
+                     Gymnasium Tiergarten
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_57b149d3f2be4c311782f525309febdb.setIcon(icon_ef368a5600adc2247ec62754582ec660);
+            
+    
+            var marker_17ab9f7cf5c0e9d428a5b2f0867fdc19 = L.marker(
+                [52.4047326, 13.5080931],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_d23d210d6418cf81810cd6d7f8344fb0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6cd489149f38662688f83cfaa672e2c4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c38467bddca5cdaf64e949a58446ff65 = $(`<div id="html_c38467bddca5cdaf64e949a58446ff65" style="width: 100.0%; height: 100.0%;"><b>Hannah-Arendt-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28774' target='_blank'>Details</a></div>`)[0];
+                popup_6cd489149f38662688f83cfaa672e2c4.setContent(html_c38467bddca5cdaf64e949a58446ff65);
+            
+        
+
+        marker_17ab9f7cf5c0e9d428a5b2f0867fdc19.bindPopup(popup_6cd489149f38662688f83cfaa672e2c4)
+        ;
+
+        
+    
+    
+            marker_17ab9f7cf5c0e9d428a5b2f0867fdc19.bindTooltip(
+                `<div>
+                     Hannah-Arendt-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_17ab9f7cf5c0e9d428a5b2f0867fdc19.setIcon(icon_d23d210d6418cf81810cd6d7f8344fb0);
+            
+    
+            var marker_20f8e19af64d30378e4e8bf2192ebb0b = L.marker(
+                [52.472472, 13.1314112],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_1a143c6e1dbe844b1e6cb445591a3cc5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cf43ee7d3d16148eccaaf7f012e88f05 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2f12e100b97d6d3113b678a62a1f45f4 = $(`<div id="html_2f12e100b97d6d3113b678a62a1f45f4" style="width: 100.0%; height: 100.0%;"><b>Hans-Carossa-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29218' target='_blank'>Details</a></div>`)[0];
+                popup_cf43ee7d3d16148eccaaf7f012e88f05.setContent(html_2f12e100b97d6d3113b678a62a1f45f4);
+            
+        
+
+        marker_20f8e19af64d30378e4e8bf2192ebb0b.bindPopup(popup_cf43ee7d3d16148eccaaf7f012e88f05)
+        ;
+
+        
+    
+    
+            marker_20f8e19af64d30378e4e8bf2192ebb0b.bindTooltip(
+                `<div>
+                     Hans-Carossa-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_20f8e19af64d30378e4e8bf2192ebb0b.setIcon(icon_1a143c6e1dbe844b1e6cb445591a3cc5);
+            
+    
+            var marker_964755541d1e0840e2d463e665945853 = L.marker(
+                [52.4916078, 13.5227716],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_d8e2c5f0aff2ee577f8cc3ec4997349d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_014b5873c9ac2f4c84862cccc73ce13f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_349b59a069177f6bfd904266370fcd8b = $(`<div id="html_349b59a069177f6bfd904266370fcd8b" style="width: 100.0%; height: 100.0%;"><b>Hans-und-Hilde-Coppi-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29173' target='_blank'>Details</a></div>`)[0];
+                popup_014b5873c9ac2f4c84862cccc73ce13f.setContent(html_349b59a069177f6bfd904266370fcd8b);
+            
+        
+
+        marker_964755541d1e0840e2d463e665945853.bindPopup(popup_014b5873c9ac2f4c84862cccc73ce13f)
+        ;
+
+        
+    
+    
+            marker_964755541d1e0840e2d463e665945853.bindTooltip(
+                `<div>
+                     Hans-und-Hilde-Coppi-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_964755541d1e0840e2d463e665945853.setIcon(icon_d8e2c5f0aff2ee577f8cc3ec4997349d);
+            
+    
+            var marker_ba2764f0904c1e258c2ccfd523ffb228 = L.marker(
+                [52.5161062, 13.4666051],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_378dea84f9782a026f6a276bccf9b3ea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1fa8257a140617b0a2d445ce69219824 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5ecb97f2a195176387b66c9665e264cc = $(`<div id="html_5ecb97f2a195176387b66c9665e264cc" style="width: 100.0%; height: 100.0%;"><b>Heinrich-Hertz-Gymnasium</b><br>Rigaer Str. 8182 10247 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28502' target='_blank'>Details</a></div>`)[0];
+                popup_1fa8257a140617b0a2d445ce69219824.setContent(html_5ecb97f2a195176387b66c9665e264cc);
+            
+        
+
+        marker_ba2764f0904c1e258c2ccfd523ffb228.bindPopup(popup_1fa8257a140617b0a2d445ce69219824)
+        ;
+
+        
+    
+    
+            marker_ba2764f0904c1e258c2ccfd523ffb228.bindTooltip(
+                `<div>
+                     Heinrich-Hertz-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ba2764f0904c1e258c2ccfd523ffb228.setIcon(icon_378dea84f9782a026f6a276bccf9b3ea);
+            
+    
+            var marker_686015bf781c98f1a35af644d21dc5e6 = L.marker(
+                [52.5468944, 13.4227755],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_164ba4ed43ff06837442dca04e81dbba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_55a3f80cd208f5ff6f5c8ffe0f6de0dd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_247c486ade783e64aad90517c6cfd0c7 = $(`<div id="html_247c486ade783e64aad90517c6cfd0c7" style="width: 100.0%; height: 100.0%;"><b>Heinrich-Schliemann-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29047' target='_blank'>Details</a></div>`)[0];
+                popup_55a3f80cd208f5ff6f5c8ffe0f6de0dd.setContent(html_247c486ade783e64aad90517c6cfd0c7);
+            
+        
+
+        marker_686015bf781c98f1a35af644d21dc5e6.bindPopup(popup_55a3f80cd208f5ff6f5c8ffe0f6de0dd)
+        ;
+
+        
+    
+    
+            marker_686015bf781c98f1a35af644d21dc5e6.bindTooltip(
+                `<div>
+                     Heinrich-Schliemann-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_686015bf781c98f1a35af644d21dc5e6.setIcon(icon_164ba4ed43ff06837442dca04e81dbba);
+            
+    
+            var marker_2f37b744f3b656314edd1de5bfaf9443 = L.marker(
+                [52.5114846, 13.2666007],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_9b966e17bb18d68aa4f2d398732674d7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c850921fd9b3b1014bcb8712d4b507eb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_75eb26663a770b51d7344e57b3168c1c = $(`<div id="html_75eb26663a770b51d7344e57b3168c1c" style="width: 100.0%; height: 100.0%;"><b>Heinz-Berggruen-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28790' target='_blank'>Details</a></div>`)[0];
+                popup_c850921fd9b3b1014bcb8712d4b507eb.setContent(html_75eb26663a770b51d7344e57b3168c1c);
+            
+        
+
+        marker_2f37b744f3b656314edd1de5bfaf9443.bindPopup(popup_c850921fd9b3b1014bcb8712d4b507eb)
+        ;
+
+        
+    
+    
+            marker_2f37b744f3b656314edd1de5bfaf9443.bindTooltip(
+                `<div>
+                     Heinz-Berggruen-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2f37b744f3b656314edd1de5bfaf9443.setIcon(icon_9b966e17bb18d68aa4f2d398732674d7);
+            
+    
+            var marker_3b97f69683b7b59502dafcb763d5320c = L.marker(
+                [52.5213329, 13.2532505],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_cd5f92b930b3d3a6068fabf8d80f6d38 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f240495701f9ffe503d7fa372f566106 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_065839e4fc8eeb4795a04286347b1eb4 = $(`<div id="html_065839e4fc8eeb4795a04286347b1eb4" style="width: 100.0%; height: 100.0%;"><b>Herder-Gymnasium</b><br>Westendallee 4546 14052 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28766' target='_blank'>Details</a></div>`)[0];
+                popup_f240495701f9ffe503d7fa372f566106.setContent(html_065839e4fc8eeb4795a04286347b1eb4);
+            
+        
+
+        marker_3b97f69683b7b59502dafcb763d5320c.bindPopup(popup_f240495701f9ffe503d7fa372f566106)
+        ;
+
+        
+    
+    
+            marker_3b97f69683b7b59502dafcb763d5320c.bindTooltip(
+                `<div>
+                     Herder-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3b97f69683b7b59502dafcb763d5320c.setIcon(icon_cd5f92b930b3d3a6068fabf8d80f6d38);
+            
+    
+            var marker_456f2d540c795073dfb750757c0f8b57 = L.marker(
+                [52.4529479, 13.3343596],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_4d2c9a78b5a9783b37c45c4c753b0b17 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1c86b271b996c72175e4020cd9148e44 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6893fcc986d248ea06f959ed6a4f2d5a = $(`<div id="html_6893fcc986d248ea06f959ed6a4f2d5a" style="width: 100.0%; height: 100.0%;"><b>Hermann-Ehlers-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28722' target='_blank'>Details</a></div>`)[0];
+                popup_1c86b271b996c72175e4020cd9148e44.setContent(html_6893fcc986d248ea06f959ed6a4f2d5a);
+            
+        
+
+        marker_456f2d540c795073dfb750757c0f8b57.bindPopup(popup_1c86b271b996c72175e4020cd9148e44)
+        ;
+
+        
+    
+    
+            marker_456f2d540c795073dfb750757c0f8b57.bindTooltip(
+                `<div>
+                     Hermann-Ehlers-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_456f2d540c795073dfb750757c0f8b57.setIcon(icon_4d2c9a78b5a9783b37c45c4c753b0b17);
+            
+    
+            var marker_805ac470a20d287c78b843520262c04f = L.marker(
+                [52.4928845, 13.4189219],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_ab16299086990df236b500f8d09ecd30 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e73e020193e8f94c59a21bad11d53a50 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8a1fb0fc6d5535c48bf3fb4447490525 = $(`<div id="html_8a1fb0fc6d5535c48bf3fb4447490525" style="width: 100.0%; height: 100.0%;"><b>Hermann-Hesse-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29181' target='_blank'>Details</a></div>`)[0];
+                popup_e73e020193e8f94c59a21bad11d53a50.setContent(html_8a1fb0fc6d5535c48bf3fb4447490525);
+            
+        
+
+        marker_805ac470a20d287c78b843520262c04f.bindPopup(popup_e73e020193e8f94c59a21bad11d53a50)
+        ;
+
+        
+    
+    
+            marker_805ac470a20d287c78b843520262c04f.bindTooltip(
+                `<div>
+                     Hermann-Hesse-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_805ac470a20d287c78b843520262c04f.setIcon(icon_ab16299086990df236b500f8d09ecd30);
+            
+    
+            var marker_8cc958b2cc3bf66184fc9aa8ddda9673 = L.marker(
+                [52.4858572, 13.2745791],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_0caf25b34e06f105c4a21c0d351b455d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dc0b827b01708f7ef22ced3cf509870b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b5ae4e7d5d0b7a61f6b7b09622ca44af = $(`<div id="html_b5ae4e7d5d0b7a61f6b7b09622ca44af" style="width: 100.0%; height: 100.0%;"><b>Hildegard-Wegscheider-Gymnasium</b><br>Lassenstr. 1620 14193 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28675' target='_blank'>Details</a></div>`)[0];
+                popup_dc0b827b01708f7ef22ced3cf509870b.setContent(html_b5ae4e7d5d0b7a61f6b7b09622ca44af);
+            
+        
+
+        marker_8cc958b2cc3bf66184fc9aa8ddda9673.bindPopup(popup_dc0b827b01708f7ef22ced3cf509870b)
+        ;
+
+        
+    
+    
+            marker_8cc958b2cc3bf66184fc9aa8ddda9673.bindTooltip(
+                `<div>
+                     Hildegard-Wegscheider-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8cc958b2cc3bf66184fc9aa8ddda9673.setIcon(icon_0caf25b34e06f105c4a21c0d351b455d);
+            
+    
+            var marker_08a883b5e1ebe4fc55a1c118e1c9f10f = L.marker(
+                [52.5923872, 13.293143],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_e5ba4b3f5be31d7328fa88e215ec9189 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d6d41fc3127db27c56e314a788c8cb8a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_97ffbdba9397543aa89106d4bb0e1f19 = $(`<div id="html_97ffbdba9397543aa89106d4bb0e1f19" style="width: 100.0%; height: 100.0%;"><b>Humboldt-Gymnasium</b><br>Hatzfeldtallee 24 13509 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29397' target='_blank'>Details</a></div>`)[0];
+                popup_d6d41fc3127db27c56e314a788c8cb8a.setContent(html_97ffbdba9397543aa89106d4bb0e1f19);
+            
+        
+
+        marker_08a883b5e1ebe4fc55a1c118e1c9f10f.bindPopup(popup_d6d41fc3127db27c56e314a788c8cb8a)
+        ;
+
+        
+    
+    
+            marker_08a883b5e1ebe4fc55a1c118e1c9f10f.bindTooltip(
+                `<div>
+                     Humboldt-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_08a883b5e1ebe4fc55a1c118e1c9f10f.setIcon(icon_e5ba4b3f5be31d7328fa88e215ec9189);
+            
+    
+            var marker_0909f368a373e2426c416d455ec713cc = L.marker(
+                [52.5021984, 13.4897353],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_568b3b7f570cde64484ed4efc1dea8fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4032e31578336ce7b6bcadc3eea842a6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ab1f3e2730192199c688efdf5dc273ab = $(`<div id="html_ab1f3e2730192199c688efdf5dc273ab" style="width: 100.0%; height: 100.0%;"><b>Immanuel-Kant-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29169' target='_blank'>Details</a></div>`)[0];
+                popup_4032e31578336ce7b6bcadc3eea842a6.setContent(html_ab1f3e2730192199c688efdf5dc273ab);
+            
+        
+
+        marker_0909f368a373e2426c416d455ec713cc.bindPopup(popup_4032e31578336ce7b6bcadc3eea842a6)
+        ;
+
+        
+    
+    
+            marker_0909f368a373e2426c416d455ec713cc.bindTooltip(
+                `<div>
+                     Immanuel-Kant-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0909f368a373e2426c416d455ec713cc.setIcon(icon_568b3b7f570cde64484ed4efc1dea8fb);
+            
+    
+            var marker_11744fcef41215092d5a8f77c9ac3f64 = L.marker(
+                [52.5820319, 13.3642801],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_cc36e7de71b3555280170b2581bd9b42 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f946d97987bf7cef96e992bb03bb3e81 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_90cabc7ae0e5da65596b8265e309b045 = $(`<div id="html_90cabc7ae0e5da65596b8265e309b045" style="width: 100.0%; height: 100.0%;"><b>Inge-Deutschkron-Gymnasium</b><br>Kopenhagener Str. 8387 13158 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29719' target='_blank'>Details</a></div>`)[0];
+                popup_f946d97987bf7cef96e992bb03bb3e81.setContent(html_90cabc7ae0e5da65596b8265e309b045);
+            
+        
+
+        marker_11744fcef41215092d5a8f77c9ac3f64.bindPopup(popup_f946d97987bf7cef96e992bb03bb3e81)
+        ;
+
+        
+    
+    
+            marker_11744fcef41215092d5a8f77c9ac3f64.bindTooltip(
+                `<div>
+                     Inge-Deutschkron-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_11744fcef41215092d5a8f77c9ac3f64.setIcon(icon_cc36e7de71b3555280170b2581bd9b42);
+            
+    
+            var marker_f3d17cdf033b7e73e8e1d84ab5bcb58b = L.marker(
+                [52.5267265, 13.4669761],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_c2b15c3910f4a0bda533f57b968709af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fb100e6026489115de0ed116339c28f8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c4073b27f6a07cb8e3444cf85c8f4fd9 = $(`<div id="html_c4073b27f6a07cb8e3444cf85c8f4fd9" style="width: 100.0%; height: 100.0%;"><b>Johann-Gottfried-Herder-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29168' target='_blank'>Details</a></div>`)[0];
+                popup_fb100e6026489115de0ed116339c28f8.setContent(html_c4073b27f6a07cb8e3444cf85c8f4fd9);
+            
+        
+
+        marker_f3d17cdf033b7e73e8e1d84ab5bcb58b.bindPopup(popup_fb100e6026489115de0ed116339c28f8)
+        ;
+
+        
+    
+    
+            marker_f3d17cdf033b7e73e8e1d84ab5bcb58b.bindTooltip(
+                `<div>
+                     Johann-Gottfried-Herder-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f3d17cdf033b7e73e8e1d84ab5bcb58b.setIcon(icon_c2b15c3910f4a0bda533f57b968709af);
+            
+    
+            var marker_94d1b8e7141a355e5ee140a277850e77 = L.marker(
+                [52.5306491, 13.4041661],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_f41cbd0af1a832d62cdb616d7a96740f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e4a98394729893b914102df89ecc84c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ed89ef551e72a0ac750aa780dfe5b8ce = $(`<div id="html_ed89ef551e72a0ac750aa780dfe5b8ce" style="width: 100.0%; height: 100.0%;"><b>John-Lennon-Gymnasium</b><br>Zehdenicker Str. 17 10119 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28843' target='_blank'>Details</a></div>`)[0];
+                popup_4e4a98394729893b914102df89ecc84c.setContent(html_ed89ef551e72a0ac750aa780dfe5b8ce);
+            
+        
+
+        marker_94d1b8e7141a355e5ee140a277850e77.bindPopup(popup_4e4a98394729893b914102df89ecc84c)
+        ;
+
+        
+    
+    
+            marker_94d1b8e7141a355e5ee140a277850e77.bindTooltip(
+                `<div>
+                     John-Lennon-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_94d1b8e7141a355e5ee140a277850e77.setIcon(icon_f41cbd0af1a832d62cdb616d7a96740f);
+            
+    
+            var marker_e2fce4192c2364dc0bdd20033fe94f82 = L.marker(
+                [52.5248933, 13.3995471],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_2888c8536d89bf8ba9f82da0d758e5d2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_725ee2797e00253b59f06530788bec24 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1383678b971ca44c7553d2d95084ec70 = $(`<div id="html_1383678b971ca44c7553d2d95084ec70" style="width: 100.0%; height: 100.0%;"><b>Jüdisches Gymnasium Moses Mendelssohn</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28861' target='_blank'>Details</a></div>`)[0];
+                popup_725ee2797e00253b59f06530788bec24.setContent(html_1383678b971ca44c7553d2d95084ec70);
+            
+        
+
+        marker_e2fce4192c2364dc0bdd20033fe94f82.bindPopup(popup_725ee2797e00253b59f06530788bec24)
+        ;
+
+        
+    
+    
+            marker_e2fce4192c2364dc0bdd20033fe94f82.bindTooltip(
+                `<div>
+                     Jüdisches Gymnasium Moses Mendelssohn
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e2fce4192c2364dc0bdd20033fe94f82.setIcon(icon_2888c8536d89bf8ba9f82da0d758e5d2);
+            
+    
+            var marker_aad6291adb494d17a0419b02f5527023 = L.marker(
+                [52.5427488, 13.2007568],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_abd79ece96dcaffb670b3967099de982 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4a2151aa60275d306652e13213688f8d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a00616c94e0608c53df3c99a4f98cf8f = $(`<div id="html_a00616c94e0608c53df3c99a4f98cf8f" style="width: 100.0%; height: 100.0%;"><b>Kant-Gymnasium</b><br>Bismarckstr. 54 13585 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29583' target='_blank'>Details</a></div>`)[0];
+                popup_4a2151aa60275d306652e13213688f8d.setContent(html_a00616c94e0608c53df3c99a4f98cf8f);
+            
+        
+
+        marker_aad6291adb494d17a0419b02f5527023.bindPopup(popup_4a2151aa60275d306652e13213688f8d)
+        ;
+
+        
+    
+    
+            marker_aad6291adb494d17a0419b02f5527023.bindTooltip(
+                `<div>
+                     Kant-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_aad6291adb494d17a0419b02f5527023.setIcon(icon_abd79ece96dcaffb670b3967099de982);
+            
+    
+            var marker_ca58c595d961f15657f20955453b6842 = L.marker(
+                [52.5497879, 13.4273693],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_43bc474c826b66e779e99b4fc02bcc5c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bcec82b3a24cba7d2cc0b0e0a0f80ce8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7ec0922dccdde26a6227dd6eb9d2c9cf = $(`<div id="html_7ec0922dccdde26a6227dd6eb9d2c9cf" style="width: 100.0%; height: 100.0%;"><b>Käthe-Kollwitz-Gymnasium</b><br>Dunckerstr. 6566 10439 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29046' target='_blank'>Details</a></div>`)[0];
+                popup_bcec82b3a24cba7d2cc0b0e0a0f80ce8.setContent(html_7ec0922dccdde26a6227dd6eb9d2c9cf);
+            
+        
+
+        marker_ca58c595d961f15657f20955453b6842.bindPopup(popup_bcec82b3a24cba7d2cc0b0e0a0f80ce8)
+        ;
+
+        
+    
+    
+            marker_ca58c595d961f15657f20955453b6842.bindTooltip(
+                `<div>
+                     Käthe-Kollwitz-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ca58c595d961f15657f20955453b6842.setIcon(icon_43bc474c826b66e779e99b4fc02bcc5c);
+            
+    
+            var marker_579716a7e2cd19680f28472fb4d4e62c = L.marker(
+                [52.6094414, 13.3127644],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_d9b1417953ae14ae854f59bafe1d90af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ce1b2171087fa39298962737c126078c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fb72dd84eea976db209ccfe1137686af = $(`<div id="html_fb72dd84eea976db209ccfe1137686af" style="width: 100.0%; height: 100.0%;"><b>Katholische Schule Salvator</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29220' target='_blank'>Details</a></div>`)[0];
+                popup_ce1b2171087fa39298962737c126078c.setContent(html_fb72dd84eea976db209ccfe1137686af);
+            
+        
+
+        marker_579716a7e2cd19680f28472fb4d4e62c.bindPopup(popup_ce1b2171087fa39298962737c126078c)
+        ;
+
+        
+    
+    
+            marker_579716a7e2cd19680f28472fb4d4e62c.bindTooltip(
+                `<div>
+                     Katholische Schule Salvator
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_579716a7e2cd19680f28472fb4d4e62c.setIcon(icon_d9b1417953ae14ae854f59bafe1d90af);
+            
+    
+            var marker_7177116ac19572a9ea0fee6f7b075a74 = L.marker(
+                [52.4239123, 13.4623874],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_b57467edb79d2e0aa3ba703202133df1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e96d87e1a54c0a5203a4e5798ea5ba33 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3f2319551183fac3af0d9b0da2102b07 = $(`<div id="html_3f2319551183fac3af0d9b0da2102b07" style="width: 100.0%; height: 100.0%;"><b>Katholische Schule Sankt Marien</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28646' target='_blank'>Details</a></div>`)[0];
+                popup_e96d87e1a54c0a5203a4e5798ea5ba33.setContent(html_3f2319551183fac3af0d9b0da2102b07);
+            
+        
+
+        marker_7177116ac19572a9ea0fee6f7b075a74.bindPopup(popup_e96d87e1a54c0a5203a4e5798ea5ba33)
+        ;
+
+        
+    
+    
+            marker_7177116ac19572a9ea0fee6f7b075a74.bindTooltip(
+                `<div>
+                     Katholische Schule Sankt Marien
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7177116ac19572a9ea0fee6f7b075a74.setIcon(icon_b57467edb79d2e0aa3ba703202133df1);
+            
+    
+            var marker_da15992ea0125c24bea6ab4dd95607e7 = L.marker(
+                [52.4606518, 13.3025116],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_4eeff2bcdc7588b8259d50d31e076988 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_463d035ec67c628404e1f0b22bad8abd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_65127807fcf3c3d9e78024c50b15838c = $(`<div id="html_65127807fcf3c3d9e78024c50b15838c" style="width: 100.0%; height: 100.0%;"><b>Königin-Luise-Stiftung</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28511' target='_blank'>Details</a></div>`)[0];
+                popup_463d035ec67c628404e1f0b22bad8abd.setContent(html_65127807fcf3c3d9e78024c50b15838c);
+            
+        
+
+        marker_da15992ea0125c24bea6ab4dd95607e7.bindPopup(popup_463d035ec67c628404e1f0b22bad8abd)
+        ;
+
+        
+    
+    
+            marker_da15992ea0125c24bea6ab4dd95607e7.bindTooltip(
+                `<div>
+                     Königin-Luise-Stiftung
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_da15992ea0125c24bea6ab4dd95607e7.setIcon(icon_4eeff2bcdc7588b8259d50d31e076988);
+            
+    
+            var marker_89b137b9ab7510495bfb19aec46ab870 = L.marker(
+                [52.4899585, 13.3968533],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_67616315e7d393b9d42ef36d348629d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8efa01671be43b0289566f0a32638166 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dfa73173fc55f30f3f7185cb8a0ee01a = $(`<div id="html_dfa73173fc55f30f3f7185cb8a0ee01a" style="width: 100.0%; height: 100.0%;"><b>Leibniz-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28794' target='_blank'>Details</a></div>`)[0];
+                popup_8efa01671be43b0289566f0a32638166.setContent(html_dfa73173fc55f30f3f7185cb8a0ee01a);
+            
+        
+
+        marker_89b137b9ab7510495bfb19aec46ab870.bindPopup(popup_8efa01671be43b0289566f0a32638166)
+        ;
+
+        
+    
+    
+            marker_89b137b9ab7510495bfb19aec46ab870.bindTooltip(
+                `<div>
+                     Leibniz-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_89b137b9ab7510495bfb19aec46ab870.setIcon(icon_67616315e7d393b9d42ef36d348629d8);
+            
+    
+            var marker_ec176c895f5d281d38ed2ad71791b61f = L.marker(
+                [52.4193429, 13.4362845],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_26d13ebe97359e0119b426c97437df1e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bba1e5983160d77e35d39320d2f55298 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3ce5e6d493e4e7f7d9b95424af2c8e49 = $(`<div id="html_3ce5e6d493e4e7f7d9b95424af2c8e49" style="width: 100.0%; height: 100.0%;"><b>Leonardo-da-Vinci-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29559' target='_blank'>Details</a></div>`)[0];
+                popup_bba1e5983160d77e35d39320d2f55298.setContent(html_3ce5e6d493e4e7f7d9b95424af2c8e49);
+            
+        
+
+        marker_ec176c895f5d281d38ed2ad71791b61f.bindPopup(popup_bba1e5983160d77e35d39320d2f55298)
+        ;
+
+        
+    
+    
+            marker_ec176c895f5d281d38ed2ad71791b61f.bindTooltip(
+                `<div>
+                     Leonardo-da-Vinci-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ec176c895f5d281d38ed2ad71791b61f.setIcon(icon_26d13ebe97359e0119b426c97437df1e);
+            
+    
+            var marker_3fa2902af4f635b970891be9095feba8 = L.marker(
+                [52.5576095, 13.3433554],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_407a1895b39c8ccfe856b1a86cb75776 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4468953e3a97b21bfd3d2bcc12a8cbac = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_426dbb79164dc577417732be68adb3c0 = $(`<div id="html_426dbb79164dc577417732be68adb3c0" style="width: 100.0%; height: 100.0%;"><b>Lessing-Gymnasium</b><br>Schöningstr. 17 13349 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28960' target='_blank'>Details</a></div>`)[0];
+                popup_4468953e3a97b21bfd3d2bcc12a8cbac.setContent(html_426dbb79164dc577417732be68adb3c0);
+            
+        
+
+        marker_3fa2902af4f635b970891be9095feba8.bindPopup(popup_4468953e3a97b21bfd3d2bcc12a8cbac)
+        ;
+
+        
+    
+    
+            marker_3fa2902af4f635b970891be9095feba8.bindTooltip(
+                `<div>
+                     Lessing-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3fa2902af4f635b970891be9095feba8.setIcon(icon_407a1895b39c8ccfe856b1a86cb75776);
+            
+    
+            var marker_f1d4ace6588dc14e57be4ae7adcf5e1c = L.marker(
+                [52.4362971, 13.3126373],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_564933da94f8985c4e05595fdcb11088 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5473d07af5ba8e400f851ece6e5fa77d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a4eeedffac2dd2f3c2b91fe9ad736d72 = $(`<div id="html_a4eeedffac2dd2f3c2b91fe9ad736d72" style="width: 100.0%; height: 100.0%;"><b>Lilienthal-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29460' target='_blank'>Details</a></div>`)[0];
+                popup_5473d07af5ba8e400f851ece6e5fa77d.setContent(html_a4eeedffac2dd2f3c2b91fe9ad736d72);
+            
+        
+
+        marker_f1d4ace6588dc14e57be4ae7adcf5e1c.bindPopup(popup_5473d07af5ba8e400f851ece6e5fa77d)
+        ;
+
+        
+    
+    
+            marker_f1d4ace6588dc14e57be4ae7adcf5e1c.bindTooltip(
+                `<div>
+                     Lilienthal-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f1d4ace6588dc14e57be4ae7adcf5e1c.setIcon(icon_564933da94f8985c4e05595fdcb11088);
+            
+    
+            var marker_fd60e6a2c5b3b66b6472590a73bdbaeb = L.marker(
+                [52.5384281, 13.1983731],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_d437d478a7746c8070fd635df1d417ce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3de0a518b50c1c2d826b16e5a987f057 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5369b9af7c82ed8de5251a91bdac555f = $(`<div id="html_5369b9af7c82ed8de5251a91bdac555f" style="width: 100.0%; height: 100.0%;"><b>Lily-Braun-Gymnasium</b><br>Münsingerstr. 2 13597 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29585' target='_blank'>Details</a></div>`)[0];
+                popup_3de0a518b50c1c2d826b16e5a987f057.setContent(html_5369b9af7c82ed8de5251a91bdac555f);
+            
+        
+
+        marker_fd60e6a2c5b3b66b6472590a73bdbaeb.bindPopup(popup_3de0a518b50c1c2d826b16e5a987f057)
+        ;
+
+        
+    
+    
+            marker_fd60e6a2c5b3b66b6472590a73bdbaeb.bindTooltip(
+                `<div>
+                     Lily-Braun-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fd60e6a2c5b3b66b6472590a73bdbaeb.setIcon(icon_d437d478a7746c8070fd635df1d417ce);
+            
+    
+            var marker_2491311ec3df55a453ebead3fd49bd86 = L.marker(
+                [52.5409764, 13.4941582],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_810c3c45c0e4b8fffc17013b9dbebf2f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d42fc7bd952bdb15e329501ecd954098 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5a35dce67657fe478151f326cfbef6d8 = $(`<div id="html_5a35dce67657fe478151f326cfbef6d8" style="width: 100.0%; height: 100.0%;"><b>Manfred-von-Ardenne-Gymnasium</b><br>Werneuchener Str. 2728 13055 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28821' target='_blank'>Details</a></div>`)[0];
+                popup_d42fc7bd952bdb15e329501ecd954098.setContent(html_5a35dce67657fe478151f326cfbef6d8);
+            
+        
+
+        marker_2491311ec3df55a453ebead3fd49bd86.bindPopup(popup_d42fc7bd952bdb15e329501ecd954098)
+        ;
+
+        
+    
+    
+            marker_2491311ec3df55a453ebead3fd49bd86.bindTooltip(
+                `<div>
+                     Manfred-von-Ardenne-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2491311ec3df55a453ebead3fd49bd86.setIcon(icon_810c3c45c0e4b8fffc17013b9dbebf2f);
+            
+    
+            var marker_e4f55844da75fd8e5cea1a486b76c00d = L.marker(
+                [52.4804931, 13.324884],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_336d59d95870cd31249e3469e2aa6ec3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_79095794e3f68a8a1c199ff69db234a7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_36fe256365a2174a9373608592054c5f = $(`<div id="html_36fe256365a2174a9373608592054c5f" style="width: 100.0%; height: 100.0%;"><b>Marie-Curie-Gymnasium</b><br>Weimarische Str. 21 10715 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28677' target='_blank'>Details</a></div>`)[0];
+                popup_79095794e3f68a8a1c199ff69db234a7.setContent(html_36fe256365a2174a9373608592054c5f);
+            
+        
+
+        marker_e4f55844da75fd8e5cea1a486b76c00d.bindPopup(popup_79095794e3f68a8a1c199ff69db234a7)
+        ;
+
+        
+    
+    
+            marker_e4f55844da75fd8e5cea1a486b76c00d.bindTooltip(
+                `<div>
+                     Marie-Curie-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e4f55844da75fd8e5cea1a486b76c00d.setIcon(icon_336d59d95870cd31249e3469e2aa6ec3);
+            
+    
+            var marker_166c972dd6d88186cc936896b71c45be = L.marker(
+                [52.5843185, 13.4012584],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_87eee182120bdb8112526486d5998388 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a5833151da81764de53a904bad2dba03 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b763085ccb4ae39cc7bcf9aab4d1be06 = $(`<div id="html_b763085ccb4ae39cc7bcf9aab4d1be06" style="width: 100.0%; height: 100.0%;"><b>Max-Delbrück-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29182' target='_blank'>Details</a></div>`)[0];
+                popup_a5833151da81764de53a904bad2dba03.setContent(html_b763085ccb4ae39cc7bcf9aab4d1be06);
+            
+        
+
+        marker_166c972dd6d88186cc936896b71c45be.bindPopup(popup_a5833151da81764de53a904bad2dba03)
+        ;
+
+        
+    
+    
+            marker_166c972dd6d88186cc936896b71c45be.bindTooltip(
+                `<div>
+                     Max-Delbrück-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_166c972dd6d88186cc936896b71c45be.setIcon(icon_87eee182120bdb8112526486d5998388);
+            
+    
+            var marker_6e024f380d560fb5613c0fb361187b55 = L.marker(
+                [52.5161073, 13.4231369],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_744c814ae962551c9837a3c6b1984db0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_143ad59f59152231caad9d4dc8f8d324 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_87b6bf68b9a204bfd2b646015dae2ccc = $(`<div id="html_87b6bf68b9a204bfd2b646015dae2ccc" style="width: 100.0%; height: 100.0%;"><b>Max-Planck-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28842' target='_blank'>Details</a></div>`)[0];
+                popup_143ad59f59152231caad9d4dc8f8d324.setContent(html_87b6bf68b9a204bfd2b646015dae2ccc);
+            
+        
+
+        marker_6e024f380d560fb5613c0fb361187b55.bindPopup(popup_143ad59f59152231caad9d4dc8f8d324)
+        ;
+
+        
+    
+    
+            marker_6e024f380d560fb5613c0fb361187b55.bindTooltip(
+                `<div>
+                     Max-Planck-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6e024f380d560fb5613c0fb361187b55.setIcon(icon_744c814ae962551c9837a3c6b1984db0);
+            
+    
+            var marker_ff9ea9598d1355e1159662e3b2c03656 = L.marker(
+                [52.5347745, 13.6176263],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_4ac61309b26e9ac689a3470112b3e27a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_69dc4724e746cf6c7d97b830b326e879 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8568ef33703369b6d0bd43e25296cf8e = $(`<div id="html_8568ef33703369b6d0bd43e25296cf8e" style="width: 100.0%; height: 100.0%;"><b>Melanchthon-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29096' target='_blank'>Details</a></div>`)[0];
+                popup_69dc4724e746cf6c7d97b830b326e879.setContent(html_8568ef33703369b6d0bd43e25296cf8e);
+            
+        
+
+        marker_ff9ea9598d1355e1159662e3b2c03656.bindPopup(popup_69dc4724e746cf6c7d97b830b326e879)
+        ;
+
+        
+    
+    
+            marker_ff9ea9598d1355e1159662e3b2c03656.bindTooltip(
+                `<div>
+                     Melanchthon-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ff9ea9598d1355e1159662e3b2c03656.setIcon(icon_4ac61309b26e9ac689a3470112b3e27a);
+            
+    
+            var marker_167ec45d99676f96dd127f786278b848 = L.marker(
+                [52.5095435, 13.2634016],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_50b1188ecaa60f9f5d290448b3393838 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e6d0e62e5112ef42d1ab4e7749b1dfc6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_459343951e3121332eb7346fac6c83bc = $(`<div id="html_459343951e3121332eb7346fac6c83bc" style="width: 100.0%; height: 100.0%;"><b>Moser-Schule - Schweizer Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28839' target='_blank'>Details</a></div>`)[0];
+                popup_e6d0e62e5112ef42d1ab4e7749b1dfc6.setContent(html_459343951e3121332eb7346fac6c83bc);
+            
+        
+
+        marker_167ec45d99676f96dd127f786278b848.bindPopup(popup_e6d0e62e5112ef42d1ab4e7749b1dfc6)
+        ;
+
+        
+    
+    
+            marker_167ec45d99676f96dd127f786278b848.bindTooltip(
+                `<div>
+                     Moser-Schule - Schweizer Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_167ec45d99676f96dd127f786278b848.setIcon(icon_50b1188ecaa60f9f5d290448b3393838);
+            
+    
+            var marker_7d391a1f7d6ee2f4f2711079d0666699 = L.marker(
+                [52.5362149, 13.3957041],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_05352e3ee9fbeaa563756827a9d90cb3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7ed9635f763d94d62676632d94f072f4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_db6c0e39914efee503d0cc751eace540 = $(`<div id="html_db6c0e39914efee503d0cc751eace540" style="width: 100.0%; height: 100.0%;"><b>Musikgymnasium Carl Philipp Emanuel Bach</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28851' target='_blank'>Details</a></div>`)[0];
+                popup_7ed9635f763d94d62676632d94f072f4.setContent(html_db6c0e39914efee503d0cc751eace540);
+            
+        
+
+        marker_7d391a1f7d6ee2f4f2711079d0666699.bindPopup(popup_7ed9635f763d94d62676632d94f072f4)
+        ;
+
+        
+    
+    
+            marker_7d391a1f7d6ee2f4f2711079d0666699.bindTooltip(
+                `<div>
+                     Musikgymnasium Carl Philipp Emanuel Bach
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7d391a1f7d6ee2f4f2711079d0666699.setIcon(icon_05352e3ee9fbeaa563756827a9d90cb3);
+            
+    
+            var marker_0377aa9059a8e69f2ef6e1a7211568b9 = L.marker(
+                [52.5121139, 13.5491004],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_1e2a2358c66f4a62e51eebd969ac8209 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_df22d2070a14a508446051e7389e85f9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e5ed3fc7f489226afca99430893240fd = $(`<div id="html_e5ed3fc7f489226afca99430893240fd" style="width: 100.0%; height: 100.0%;"><b>Otto-Nagel-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29329' target='_blank'>Details</a></div>`)[0];
+                popup_df22d2070a14a508446051e7389e85f9.setContent(html_e5ed3fc7f489226afca99430893240fd);
+            
+        
+
+        marker_0377aa9059a8e69f2ef6e1a7211568b9.bindPopup(popup_df22d2070a14a508446051e7389e85f9)
+        ;
+
+        
+    
+    
+            marker_0377aa9059a8e69f2ef6e1a7211568b9.bindTooltip(
+                `<div>
+                     Otto-Nagel-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0377aa9059a8e69f2ef6e1a7211568b9.setIcon(icon_1e2a2358c66f4a62e51eebd969ac8209);
+            
+    
+            var marker_1bc7a926258c077c28f4df9f9c900732 = L.marker(
+                [52.4708417, 13.3272195],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_16d1978cabfa1f759938306cdbca109f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ecd60cfee79fb7e4fff7e9c311d71dc3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_09c862a7acec7f62ac7619020f857e1a = $(`<div id="html_09c862a7acec7f62ac7619020f857e1a" style="width: 100.0%; height: 100.0%;"><b>Paul-Natorp-Gymnasium</b><br>Goßlerstr. 1315 12161 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28759' target='_blank'>Details</a></div>`)[0];
+                popup_ecd60cfee79fb7e4fff7e9c311d71dc3.setContent(html_09c862a7acec7f62ac7619020f857e1a);
+            
+        
+
+        marker_1bc7a926258c077c28f4df9f9c900732.bindPopup(popup_ecd60cfee79fb7e4fff7e9c311d71dc3)
+        ;
+
+        
+    
+    
+            marker_1bc7a926258c077c28f4df9f9c900732.bindTooltip(
+                `<div>
+                     Paul-Natorp-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1bc7a926258c077c28f4df9f9c900732.setIcon(icon_16d1978cabfa1f759938306cdbca109f);
+            
+    
+            var marker_260bdaeff450bbaaa0260f78e44f4351 = L.marker(
+                [52.4613966, 13.3149378],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_9aa553768f6b78e2473a698de1d2685a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_acd1c12babaa6303b44b446d2a9da27e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4f417b58cd3cbff3a5a900db77691a97 = $(`<div id="html_4f417b58cd3cbff3a5a900db77691a97" style="width: 100.0%; height: 100.0%;"><b>Paulsen-Gymnasium</b><br>Gritznerstr. 57 12163 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28711' target='_blank'>Details</a></div>`)[0];
+                popup_acd1c12babaa6303b44b446d2a9da27e.setContent(html_4f417b58cd3cbff3a5a900db77691a97);
+            
+        
+
+        marker_260bdaeff450bbaaa0260f78e44f4351.bindPopup(popup_acd1c12babaa6303b44b446d2a9da27e)
+        ;
+
+        
+    
+    
+            marker_260bdaeff450bbaaa0260f78e44f4351.bindTooltip(
+                `<div>
+                     Paulsen-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_260bdaeff450bbaaa0260f78e44f4351.setIcon(icon_9aa553768f6b78e2473a698de1d2685a);
+            
+    
+            var marker_445faa001c3b102bdf7c59726461ad31 = L.marker(
+                [52.5511407, 13.4541524],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_5fa51c662e12cd9a0c825c86d2afed24 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6405a0ed09631c0e5c0c3d0c5ffd5da = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_968f40d038a15da9ff6f5268f5854d19 = $(`<div id="html_968f40d038a15da9ff6f5268f5854d19" style="width: 100.0%; height: 100.0%;"><b>Primo-Levi-Gymnasium</b><br>Pistoriusstr. 133 13086 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29312' target='_blank'>Details</a></div>`)[0];
+                popup_f6405a0ed09631c0e5c0c3d0c5ffd5da.setContent(html_968f40d038a15da9ff6f5268f5854d19);
+            
+        
+
+        marker_445faa001c3b102bdf7c59726461ad31.bindPopup(popup_f6405a0ed09631c0e5c0c3d0c5ffd5da)
+        ;
+
+        
+    
+    
+            marker_445faa001c3b102bdf7c59726461ad31.bindTooltip(
+                `<div>
+                     Primo-Levi-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_445faa001c3b102bdf7c59726461ad31.setIcon(icon_5fa51c662e12cd9a0c825c86d2afed24);
+            
+    
+            var marker_2a987ac5c9230194cca98dc20fb217e4 = L.marker(
+                [52.4858093, 13.3541252],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_acf4e31353a7f0536a430ccbfc325e31 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a3860eea2e1c52d259a7ad986548f667 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_484393556d5666658a4754a2481d201c = $(`<div id="html_484393556d5666658a4754a2481d201c" style="width: 100.0%; height: 100.0%;"><b>Privates Europa-Gymnasium Berlin</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29843' target='_blank'>Details</a></div>`)[0];
+                popup_a3860eea2e1c52d259a7ad986548f667.setContent(html_484393556d5666658a4754a2481d201c);
+            
+        
+
+        marker_2a987ac5c9230194cca98dc20fb217e4.bindPopup(popup_a3860eea2e1c52d259a7ad986548f667)
+        ;
+
+        
+    
+    
+            marker_2a987ac5c9230194cca98dc20fb217e4.bindTooltip(
+                `<div>
+                     Privates Europa-Gymnasium Berlin
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2a987ac5c9230194cca98dc20fb217e4.setIcon(icon_acf4e31353a7f0536a430ccbfc325e31);
+            
+    
+            var marker_9a30897a1c06337d7254a31f71a61d05 = L.marker(
+                [52.4709299, 13.3222435],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_25aba96d2fb924f617366fbbbf911d53 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ba94fd87a2223f4bde64ccac76e808ad = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_45b5c31460b931a827e0426a49a6b0ed = $(`<div id="html_45b5c31460b931a827e0426a49a6b0ed" style="width: 100.0%; height: 100.0%;"><b>Rheingau-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28533' target='_blank'>Details</a></div>`)[0];
+                popup_ba94fd87a2223f4bde64ccac76e808ad.setContent(html_45b5c31460b931a827e0426a49a6b0ed);
+            
+        
+
+        marker_9a30897a1c06337d7254a31f71a61d05.bindPopup(popup_ba94fd87a2223f4bde64ccac76e808ad)
+        ;
+
+        
+    
+    
+            marker_9a30897a1c06337d7254a31f71a61d05.bindTooltip(
+                `<div>
+                     Rheingau-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9a30897a1c06337d7254a31f71a61d05.setIcon(icon_25aba96d2fb924f617366fbbbf911d53);
+            
+    
+            var marker_12ac5f9e321d4db91e834bf12e737abf = L.marker(
+                [52.4844845, 13.364809],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_6de5de785f90b0536aa1fa47af34988e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_060c9924d571be2163aac72bb2f14a53 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_476584ef02150bed90d26cdb9dfdac5f = $(`<div id="html_476584ef02150bed90d26cdb9dfdac5f" style="width: 100.0%; height: 100.0%;"><b>Robert-Blum-Gymnasium</b><br>Kolonnenstr. 21 10829 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28531' target='_blank'>Details</a></div>`)[0];
+                popup_060c9924d571be2163aac72bb2f14a53.setContent(html_476584ef02150bed90d26cdb9dfdac5f);
+            
+        
+
+        marker_12ac5f9e321d4db91e834bf12e737abf.bindPopup(popup_060c9924d571be2163aac72bb2f14a53)
+        ;
+
+        
+    
+    
+            marker_12ac5f9e321d4db91e834bf12e737abf.bindTooltip(
+                `<div>
+                     Robert-Blum-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_12ac5f9e321d4db91e834bf12e737abf.setIcon(icon_6de5de785f90b0536aa1fa47af34988e);
+            
+    
+            var marker_a6c7336737e9c2eb48f04dd869b1817a = L.marker(
+                [52.6161137, 13.4927711],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_cd0ac62dbc263d7fd24a9224c73fea31 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ada1658b91534e05f5e2f33f16d5b62e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_627c68b080f04cfd7bb82a3fb3fcc3c3 = $(`<div id="html_627c68b080f04cfd7bb82a3fb3fcc3c3" style="width: 100.0%; height: 100.0%;"><b>Robert-Havemann-Gymnasium</b><br>Achillesstr. 79 13125 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29571' target='_blank'>Details</a></div>`)[0];
+                popup_ada1658b91534e05f5e2f33f16d5b62e.setContent(html_627c68b080f04cfd7bb82a3fb3fcc3c3);
+            
+        
+
+        marker_a6c7336737e9c2eb48f04dd869b1817a.bindPopup(popup_ada1658b91534e05f5e2f33f16d5b62e)
+        ;
+
+        
+    
+    
+            marker_a6c7336737e9c2eb48f04dd869b1817a.bindTooltip(
+                `<div>
+                     Robert-Havemann-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a6c7336737e9c2eb48f04dd869b1817a.setIcon(icon_cd0ac62dbc263d7fd24a9224c73fea31);
+            
+    
+            var marker_50642bbfe80de3820d3a50c8a8e15957 = L.marker(
+                [52.4930608, 13.4156684],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_2b640c3ad836a9149598712cb390dbe1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d9d71612b938ef5f5a400e157db6401f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_69ae469482fd4ab27a571ae3cdc1418e = $(`<div id="html_69ae469482fd4ab27a571ae3cdc1418e" style="width: 100.0%; height: 100.0%;"><b>Robert-Koch-Gymnasium</b><br>Dieffenbachstr. 60 10967 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29120' target='_blank'>Details</a></div>`)[0];
+                popup_d9d71612b938ef5f5a400e157db6401f.setContent(html_69ae469482fd4ab27a571ae3cdc1418e);
+            
+        
+
+        marker_50642bbfe80de3820d3a50c8a8e15957.bindPopup(popup_d9d71612b938ef5f5a400e157db6401f)
+        ;
+
+        
+    
+    
+            marker_50642bbfe80de3820d3a50c8a8e15957.bindTooltip(
+                `<div>
+                     Robert-Koch-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_50642bbfe80de3820d3a50c8a8e15957.setIcon(icon_2b640c3ad836a9149598712cb390dbe1);
+            
+    
+            var marker_9b10baa760c950c2aa9bb84b114e23bd = L.marker(
+                [52.5987631, 13.3188062],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_3f586d6c2181dde2dad0b0868753c195 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_20252f6ec04ad950257415068ae22a04 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8b43ef1cfb7400d8ae42c3844a900afd = $(`<div id="html_8b43ef1cfb7400d8ae42c3844a900afd" style="width: 100.0%; height: 100.0%;"><b>Romain-Rolland-Gymnasium</b><br>Place Moliere 4 13469 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29398' target='_blank'>Details</a></div>`)[0];
+                popup_20252f6ec04ad950257415068ae22a04.setContent(html_8b43ef1cfb7400d8ae42c3844a900afd);
+            
+        
+
+        marker_9b10baa760c950c2aa9bb84b114e23bd.bindPopup(popup_20252f6ec04ad950257415068ae22a04)
+        ;
+
+        
+    
+    
+            marker_9b10baa760c950c2aa9bb84b114e23bd.bindTooltip(
+                `<div>
+                     Romain-Rolland-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9b10baa760c950c2aa9bb84b114e23bd.setIcon(icon_3f586d6c2181dde2dad0b0868753c195);
+            
+    
+            var marker_5ab753a7ed17cbfcb5286cd052de985a = L.marker(
+                [52.5260133, 13.3337133],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_e3623dc1a782aacd8d026a702d7b6ba2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_45a4055fc2a576682bd469869d7f78ef = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_90702c05df05205e3168b4a19af762e6 = $(`<div id="html_90702c05df05205e3168b4a19af762e6" style="width: 100.0%; height: 100.0%;"><b>Rosalind-Franklin-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29845' target='_blank'>Details</a></div>`)[0];
+                popup_45a4055fc2a576682bd469869d7f78ef.setContent(html_90702c05df05205e3168b4a19af762e6);
+            
+        
+
+        marker_5ab753a7ed17cbfcb5286cd052de985a.bindPopup(popup_45a4055fc2a576682bd469869d7f78ef)
+        ;
+
+        
+    
+    
+            marker_5ab753a7ed17cbfcb5286cd052de985a.bindTooltip(
+                `<div>
+                     Rosalind-Franklin-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5ab753a7ed17cbfcb5286cd052de985a.setIcon(icon_e3623dc1a782aacd8d026a702d7b6ba2);
+            
+    
+            var marker_2b57e531dfdfbdd49c59b525c0950c72 = L.marker(
+                [52.5663082, 13.419914],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_18078b545b75086e4ae04d426a006126 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8d4ad35ed5e489e68b95020ff7f208ca = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_58cf75beff22341addfbcb63564ee89d = $(`<div id="html_58cf75beff22341addfbcb63564ee89d" style="width: 100.0%; height: 100.0%;"><b>Rosa-Luxemburg-Gymnasium</b><br>Kissingenstr. 12 13189 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29183' target='_blank'>Details</a></div>`)[0];
+                popup_8d4ad35ed5e489e68b95020ff7f208ca.setContent(html_58cf75beff22341addfbcb63564ee89d);
+            
+        
+
+        marker_2b57e531dfdfbdd49c59b525c0950c72.bindPopup(popup_8d4ad35ed5e489e68b95020ff7f208ca)
+        ;
+
+        
+    
+    
+            marker_2b57e531dfdfbdd49c59b525c0950c72.bindTooltip(
+                `<div>
+                     Rosa-Luxemburg-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2b57e531dfdfbdd49c59b525c0950c72.setIcon(icon_18078b545b75086e4ae04d426a006126);
+            
+    
+            var marker_a6c573af2f33e879446c0c1f382e1a31 = L.marker(
+                [52.4799688, 13.3384592],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_9d8e7c6e595ae1394425a3137ac31c62 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a10785e58b09011b9bb95214e29d468f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ad190a22918a51fce24167fecaeaf2a7 = $(`<div id="html_ad190a22918a51fce24167fecaeaf2a7" style="width: 100.0%; height: 100.0%;"><b>Rückert-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28532' target='_blank'>Details</a></div>`)[0];
+                popup_a10785e58b09011b9bb95214e29d468f.setContent(html_ad190a22918a51fce24167fecaeaf2a7);
+            
+        
+
+        marker_a6c573af2f33e879446c0c1f382e1a31.bindPopup(popup_a10785e58b09011b9bb95214e29d468f)
+        ;
+
+        
+    
+    
+            marker_a6c573af2f33e879446c0c1f382e1a31.bindTooltip(
+                `<div>
+                     Rückert-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a6c573af2f33e879446c0c1f382e1a31.setIcon(icon_9d8e7c6e595ae1394425a3137ac31c62);
+            
+    
+            var marker_46146d7d336915177873354bb91d245f = L.marker(
+                [52.5430555, 13.590718],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_621db62685e4a829f789fbe7a7c32c6d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e5466866630cf471d0f5607446b74228 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5f19ac04f4be6d5596f45d9fa605d4b5 = $(`<div id="html_5f19ac04f4be6d5596f45d9fa605d4b5" style="width: 100.0%; height: 100.0%;"><b>Sartre-Gymnasium</b><br>Kyritzer Str. 103 12629 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29373' target='_blank'>Details</a></div>`)[0];
+                popup_e5466866630cf471d0f5607446b74228.setContent(html_5f19ac04f4be6d5596f45d9fa605d4b5);
+            
+        
+
+        marker_46146d7d336915177873354bb91d245f.bindPopup(popup_e5466866630cf471d0f5607446b74228)
+        ;
+
+        
+    
+    
+            marker_46146d7d336915177873354bb91d245f.bindTooltip(
+                `<div>
+                     Sartre-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_46146d7d336915177873354bb91d245f.setIcon(icon_621db62685e4a829f789fbe7a7c32c6d);
+            
+    
+            var marker_4477d7e0413a32987e0b64e2b15950c1 = L.marker(
+                [52.4317427, 13.2551061],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_6636d52456f93841547c401b6912df39 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_34128474bb8f144011d8d0a8f77d32bf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_892b4f9d789d6fed556e16b7c06a1491 = $(`<div id="html_892b4f9d789d6fed556e16b7c06a1491" style="width: 100.0%; height: 100.0%;"><b>Schadow-Gymnasium</b><br>Beuckestr. 2729 14163 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28473' target='_blank'>Details</a></div>`)[0];
+                popup_34128474bb8f144011d8d0a8f77d32bf.setContent(html_892b4f9d789d6fed556e16b7c06a1491);
+            
+        
+
+        marker_4477d7e0413a32987e0b64e2b15950c1.bindPopup(popup_34128474bb8f144011d8d0a8f77d32bf)
+        ;
+
+        
+    
+    
+            marker_4477d7e0413a32987e0b64e2b15950c1.bindTooltip(
+                `<div>
+                     Schadow-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4477d7e0413a32987e0b64e2b15950c1.setIcon(icon_6636d52456f93841547c401b6912df39);
+            
+    
+            var marker_2bd957b3c7db82c8ff0cdcc09931fc50 = L.marker(
+                [52.51031, 13.3217398],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_b0c9bea5fa35aae5dfffad6eef81d780 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7ad7af96d9c84bee40badcba50d0cae0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b8571a20417e6de517b73c2ed30df9d3 = $(`<div id="html_b8571a20417e6de517b73c2ed30df9d3" style="width: 100.0%; height: 100.0%;"><b>Schiller-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29285' target='_blank'>Details</a></div>`)[0];
+                popup_7ad7af96d9c84bee40badcba50d0cae0.setContent(html_b8571a20417e6de517b73c2ed30df9d3);
+            
+        
+
+        marker_2bd957b3c7db82c8ff0cdcc09931fc50.bindPopup(popup_7ad7af96d9c84bee40badcba50d0cae0)
+        ;
+
+        
+    
+    
+            marker_2bd957b3c7db82c8ff0cdcc09931fc50.bindTooltip(
+                `<div>
+                     Schiller-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2bd957b3c7db82c8ff0cdcc09931fc50.setIcon(icon_b0c9bea5fa35aae5dfffad6eef81d780);
+            
+    
+            var marker_d6065321554036ce5e5140bd81c5ab72 = L.marker(
+                [52.5838576, 13.2518001],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_5c6393ad0293edf915b551126d9e96a2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_70a487b6c1bcc89f3b3ad36455948cef = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0163720118692be78bce14ee0de0b095 = $(`<div id="html_0163720118692be78bce14ee0de0b095" style="width: 100.0%; height: 100.0%;"><b>Schulfarm Insel Scharfenberg</b><br>06 Schwarzer Weg 101105 13505 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29391' target='_blank'>Details</a></div>`)[0];
+                popup_70a487b6c1bcc89f3b3ad36455948cef.setContent(html_0163720118692be78bce14ee0de0b095);
+            
+        
+
+        marker_d6065321554036ce5e5140bd81c5ab72.bindPopup(popup_70a487b6c1bcc89f3b3ad36455948cef)
+        ;
+
+        
+    
+    
+            marker_d6065321554036ce5e5140bd81c5ab72.bindTooltip(
+                `<div>
+                     Schulfarm Insel Scharfenberg
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d6065321554036ce5e5140bd81c5ab72.setIcon(icon_5c6393ad0293edf915b551126d9e96a2);
+            
+    
+            var marker_b6d216f7917401dba579913d5caafbc4 = L.marker(
+                [52.5025933, 13.3119358],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_96263b4c74b00695578c017a364ab4f8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bcc11f57834ae6087e70b27c5e244dbf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4c4d50512da9f8ee7407e8606a38a3df = $(`<div id="html_4c4d50512da9f8ee7407e8606a38a3df" style="width: 100.0%; height: 100.0%;"><b>Sophie-Charlotte-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29287' target='_blank'>Details</a></div>`)[0];
+                popup_bcc11f57834ae6087e70b27c5e244dbf.setContent(html_4c4d50512da9f8ee7407e8606a38a3df);
+            
+        
+
+        marker_b6d216f7917401dba579913d5caafbc4.bindPopup(popup_bcc11f57834ae6087e70b27c5e244dbf)
+        ;
+
+        
+    
+    
+            marker_b6d216f7917401dba579913d5caafbc4.bindTooltip(
+                `<div>
+                     Sophie-Charlotte-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b6d216f7917401dba579913d5caafbc4.setIcon(icon_96263b4c74b00695578c017a364ab4f8);
+            
+    
+            var marker_6078bbca7fb07204a1f4af1cf3401972 = L.marker(
+                [52.5530849, 13.5564125],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_9e3571247b1b98c92438a4ef9ec9e7c9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a62079c62245d0e30835a9acc3b07df6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a9463c20edeac86c96164a7622d69047 = $(`<div id="html_a9463c20edeac86c96164a7622d69047" style="width: 100.0%; height: 100.0%;"><b>Tagore-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29328' target='_blank'>Details</a></div>`)[0];
+                popup_a62079c62245d0e30835a9acc3b07df6.setContent(html_a9463c20edeac86c96164a7622d69047);
+            
+        
+
+        marker_6078bbca7fb07204a1f4af1cf3401972.bindPopup(popup_a62079c62245d0e30835a9acc3b07df6)
+        ;
+
+        
+    
+    
+            marker_6078bbca7fb07204a1f4af1cf3401972.bindTooltip(
+                `<div>
+                     Tagore-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6078bbca7fb07204a1f4af1cf3401972.setIcon(icon_9e3571247b1b98c92438a4ef9ec9e7c9);
+            
+    
+            var marker_baeac4aa9ad40080e9e6c2d0ac72783a = L.marker(
+                [52.5988706, 13.3518418],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_714a527de2a5f4b21eb02a4d837cc365 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4168dda18d5bce39a1fdafcecd300ac7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1b9f4d64964ec0bba1fbdcfbe1cbe052 = $(`<div id="html_1b9f4d64964ec0bba1fbdcfbe1cbe052" style="width: 100.0%; height: 100.0%;"><b>Thomas-Mann-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29392' target='_blank'>Details</a></div>`)[0];
+                popup_4168dda18d5bce39a1fdafcecd300ac7.setContent(html_1b9f4d64964ec0bba1fbdcfbe1cbe052);
+            
+        
+
+        marker_baeac4aa9ad40080e9e6c2d0ac72783a.bindPopup(popup_4168dda18d5bce39a1fdafcecd300ac7)
+        ;
+
+        
+    
+    
+            marker_baeac4aa9ad40080e9e6c2d0ac72783a.bindTooltip(
+                `<div>
+                     Thomas-Mann-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_baeac4aa9ad40080e9e6c2d0ac72783a.setIcon(icon_714a527de2a5f4b21eb02a4d837cc365);
+            
+    
+            var marker_33d4827953d600c5e38453b63d112a99 = L.marker(
+                [52.5031028, 13.2554771],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_c6b28451eec8ed2c820253d491456231 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_62aadd43edad5b8bc039d4af3d3f1448 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_201ac241d67ce6153c22e14c0d5b98a2 = $(`<div id="html_201ac241d67ce6153c22e14c0d5b98a2" style="width: 100.0%; height: 100.0%;"><b>Wald-Gymnasium</b><br>Waldschulallee 95 14055 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29286' target='_blank'>Details</a></div>`)[0];
+                popup_62aadd43edad5b8bc039d4af3d3f1448.setContent(html_201ac241d67ce6153c22e14c0d5b98a2);
+            
+        
+
+        marker_33d4827953d600c5e38453b63d112a99.bindPopup(popup_62aadd43edad5b8bc039d4af3d3f1448)
+        ;
+
+        
+    
+    
+            marker_33d4827953d600c5e38453b63d112a99.bindTooltip(
+                `<div>
+                     Wald-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_33d4827953d600c5e38453b63d112a99.setIcon(icon_c6b28451eec8ed2c820253d491456231);
+            
+    
+            var marker_210cc4877d33afa78a658ac21503b925 = L.marker(
+                [52.4877088, 13.2836307],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_ba562c26606d4bcb2a51da04b53ce327 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_92fb8f89bfb9f225dc4e24b0492f29c3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_da5975546d64e7f1b533bceee7d32fea = $(`<div id="html_da5975546d64e7f1b533bceee7d32fea" style="width: 100.0%; height: 100.0%;"><b>Walther-Rathenau-Gymnasium</b><br>Herbertstr. 26 14193 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28676' target='_blank'>Details</a></div>`)[0];
+                popup_92fb8f89bfb9f225dc4e24b0492f29c3.setContent(html_da5975546d64e7f1b533bceee7d32fea);
+            
+        
+
+        marker_210cc4877d33afa78a658ac21503b925.bindPopup(popup_92fb8f89bfb9f225dc4e24b0492f29c3)
+        ;
+
+        
+    
+    
+            marker_210cc4877d33afa78a658ac21503b925.bindTooltip(
+                `<div>
+                     Walther-Rathenau-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_210cc4877d33afa78a658ac21503b925.setIcon(icon_ba562c26606d4bcb2a51da04b53ce327);
+            
+    
+            var marker_4f96986f7725492a3adf3de7f1db261b = L.marker(
+                [52.4316108, 13.2116421],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_e9515d8231a6ba23b989bb89ca53a715 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_de70d926b85a0deb5265a58521cc2357 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b7b44b6aa3fcc3e2bad24d625c618927 = $(`<div id="html_b7b44b6aa3fcc3e2bad24d625c618927" style="width: 100.0%; height: 100.0%;"><b>Werner-von-Siemens-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 28493' target='_blank'>Details</a></div>`)[0];
+                popup_de70d926b85a0deb5265a58521cc2357.setContent(html_b7b44b6aa3fcc3e2bad24d625c618927);
+            
+        
+
+        marker_4f96986f7725492a3adf3de7f1db261b.bindPopup(popup_de70d926b85a0deb5265a58521cc2357)
+        ;
+
+        
+    
+    
+            marker_4f96986f7725492a3adf3de7f1db261b.bindTooltip(
+                `<div>
+                     Werner-von-Siemens-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4f96986f7725492a3adf3de7f1db261b.setIcon(icon_e9515d8231a6ba23b989bb89ca53a715);
+            
+    
+            var marker_c8dbaafbc671a6bf7ea502d37a361c24 = L.marker(
+                [52.5330211, 13.5519924],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_474dadc117749492f47537dcec97dc7e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e57256cc032573261c656344b24e724d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3b98ad769f87a9b9de0a46fbc0261f68 = $(`<div id="html_3b98ad769f87a9b9de0a46fbc0261f68" style="width: 100.0%; height: 100.0%;"><b>Wilhelm-von-Siemens-Gymnasium</b><br>Address: N/A (Geocoded by Name)<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29516' target='_blank'>Details</a></div>`)[0];
+                popup_e57256cc032573261c656344b24e724d.setContent(html_3b98ad769f87a9b9de0a46fbc0261f68);
+            
+        
+
+        marker_c8dbaafbc671a6bf7ea502d37a361c24.bindPopup(popup_e57256cc032573261c656344b24e724d)
+        ;
+
+        
+    
+    
+            marker_c8dbaafbc671a6bf7ea502d37a361c24.bindTooltip(
+                `<div>
+                     Wilhelm-von-Siemens-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c8dbaafbc671a6bf7ea502d37a361c24.setIcon(icon_474dadc117749492f47537dcec97dc7e);
+            
+    
+            var marker_85eb814bb90767c5e5e388873d64ccfd = L.marker(
+                [52.4346952, 13.3213974],
+                {
+}
+            ).addTo(map_db26a7b91e9faf3881b6d17bead8d177);
+        
+    
+            var icon_d498d5849c2588eaeda020f9fbd4f9f2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bc4dd9aeaea0348bf4df22878113c3d0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9a9fb26aa06a357c43775d297adf5445 = $(`<div id="html_9a9fb26aa06a357c43775d297adf5445" style="width: 100.0%; height: 100.0%;"><b>Willi-Graf-Gymnasium</b><br>Ostpreußendamm 166 12207 Berlin<br><a href='https://www.bildung.berlin.de/Schulverzeichnis/Schulportrait.aspx?IDSchulzweig= 29462' target='_blank'>Details</a></div>`)[0];
+                popup_bc4dd9aeaea0348bf4df22878113c3d0.setContent(html_9a9fb26aa06a357c43775d297adf5445);
+            
+        
+
+        marker_85eb814bb90767c5e5e388873d64ccfd.bindPopup(popup_bc4dd9aeaea0348bf4df22878113c3d0)
+        ;
+
+        
+    
+    
+            marker_85eb814bb90767c5e5e388873d64ccfd.bindTooltip(
+                `<div>
+                     Willi-Graf-Gymnasium
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_85eb814bb90767c5e5e388873d64ccfd.setIcon(icon_d498d5849c2588eaeda020f9fbd4f9f2);
+            
+</script>
+</html>
