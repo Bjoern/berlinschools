@@ -155,6 +155,6 @@ finally:
     # Add Layer Control
     folium.LayerControl(collapsed=False).add_to(m)
     
-    output_file = 'berlin_schools_map.html'
+    output_file = 'docs/index.html'
     m.save(output_file)
     print(f"Map saved to {output_file}. Plotted {processed_count} schools.")
